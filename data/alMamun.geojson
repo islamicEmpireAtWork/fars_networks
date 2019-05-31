@@ -1,0 +1,2171 @@
+var alMamun = [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 52.96650463,28.34650998 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Abzar",
+    "standardized_name":"أبزر",
+    "kura_name":"Ardashīr Khurra",
+    "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_shahrak",
+    "location_certainty":"",
+    "id":"",
+    "loc":"Google Earth place marker Shahr Afzar (not in Geonames)",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"1",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"1",
+    "kura_code":"2",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 52.96127199,28.70096321 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"al-Ṣīmakān",
+    "standardized_name":"الصيمكان",
+    "kura_name":"Ardashīr Khurra",
+    "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_nāhiya capitals of Ardashīr Khurra_",
+    "location_certainty":"no specific clues for an exact location",
+    "id":"modern town Dūzeh, which was formerly the centre of the Sīmakān district; not necessarily the exact location of Early Islamic Sīmakān town.",
+    "loc":"http://www.geonames.org/135554/duzeh.html",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"2",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"2",
+    "kura_code":"2",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.2220556,29.2721444 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Khūristān",
+    "standardized_name":"خورستان",
+    "kura_name":"Ardashīr Khurra",
+    "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_nāhiya capitals of Ardashīr Khurra_",
+    "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
+    "id":"",
+    "loc":"modern city Sarwestān",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"6",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"6",
+    "kura_code":"1",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 52.85437559,27.74782649 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Kurān",
+    "standardized_name":"كران",
+    "kura_name":"Ardashīr Khurra",
+    "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_nāhiya capitals of Ardashīr Khurra_",
+    "location_certainty":"",
+    "id":"",
+    "loc":"unidentified; Cornu's coordinate is in the ʿAlāmarvdasht valley, which was surveyed by Gaube (Gaube 1980). I moved Cornu's place from the steep valley wall to the valley.",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"8",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"8",
+    "kura_code":"2",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.03168533,28.46221035 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Qīr",
+    "standardized_name":"قير",
+    "kura_name":"Ardashīr Khurra",
+    "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_shahrak",
+    "location_certainty":"",
+    "id":"",
+    "loc":"",
+    "note":"note the large tell (Qalʿe Pariyān / Partiyān) 1,5 km east of these ruins!",
+    "pic":"",
+    "radius":4,
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"9",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"9",
+    "kura_code":"2",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 50.50747834,30.53001033 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Furzuk",
+    "standardized_name":"فرزك",
+    "kura_name":"Arrajān",
+    "city_type (Ibn al-Balkhī)":"cities of Arrajān_nāhiya minbars of Arrajān_",
+    "location_certainty":"no specific clues for an exact location",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"11",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"11",
+    "kura_code":"5",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.97041906,28.93778147 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"al-Fustajān",
+    "standardized_name":"الفستجان",
+    "kura_name":"Darābjird",
+    "city_type (Ibn al-Balkhī)":"cities of Dārābjird_shahr",
+    "location_certainty":"no specific clues for an exact location",
+    "id":"exact location unknown",
+    "loc":"hypothetical, based on the distance from Fasā (7F) and Dārābjird (10F); probably located on the west side of the valley of which Dārakān occupied the east side",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"14",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"14",
+    "kura_code":"3",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 54.24588252,29.02090436 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Īj",
+    "standardized_name":"إيج",
+    "kura_name":"Darābjird",
+    "city_type (Ibn al-Balkhī)":"cities of Dārābjird_minbars of the nāhiyas of Dārābjird_",
+    "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
+    "id":"",
+    "loc":"http://www.geonames.org/130809/ij.html",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"21",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"21",
+    "kura_code":"3",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.55947222,28.50016044 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Jahrum",
+    "standardized_name":"جهرم",
+    "kura_name":"Darābjird",
+    "city_type (Ibn al-Balkhī)":"cities of Dārābjird_nāhiya capitals of Dārābjird_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"modern city Jahrom",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"22",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"22",
+    "kura_code":"3",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"Mint: 65-72",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.98328365,28.25000488 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Juwaym Abī Aḥmad",
+    "standardized_name":"جويم أبي أحمد",
+    "kura_name":"Darābjird",
+    "city_type (Ibn al-Balkhī)":"cities of Dārābjird_",
+    "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"23",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"23",
+    "kura_code":"3",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.85181101,28.86540899 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Ṭamistān",
+    "standardized_name":"طمستان",
+    "kura_name":"Darābjird",
+    "city_type (Ibn al-Balkhī)":"cities of Dārābjird_minbars of the nāhiyas of Dārābjird_",
+    "location_certainty":"no specific clues for an exact location",
+    "id":"",
+    "loc":"hypothetical; on the route from Fasā to Darābjird, half a day's journey / 4 farsakhs from Fasā.",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"27",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"27",
+    "kura_code":"3",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.74430455,28.18104842 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Tārum",
+    "standardized_name":"تارم",
+    "kura_name":"Darābjird",
+    "city_type (Ibn al-Balkhī)":"cities of Dārābjird_",
+    "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"28",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"28",
+    "kura_code":"3",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 52.50196024,30.18884678 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Abraj",
+    "standardized_name":"أبرج",
+    "kura_name":"Iṣṭakhr",
+    "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_dīh buzurg",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"http://www.geonames.org/115803/shahrak-e-qadim-abraj.html",
+    "note":"",
+    "radius":4,
+    "pic":"http://www.panoramio.com/photo/43851818?source=wapi&referrer=kh.google.com",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"30",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"30",
+    "kura_code":"1",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.87024162,30.40518835 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"al-Rūdhān",
+    "standardized_name":"الروذان",
+    "kura_name":"Iṣṭakhr",
+    "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
+    "location_certainty":"no specific clues for an exact location",
+    "id":"Cornu identifies the place with Bahramabad ",
+    "loc":"http://www.geonames.org/130347/jannatabad.html",
+    "note":"note the heavy concentration of qanats in this area; and the ruins visible north and east of the village",
+    "pic":"",
+    "radius":4,
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"35",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"35",
+    "kura_code":"1",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 52.51872629,29.88614773 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Hizār",
+    "standardized_name":"هزار",
+    "kura_name":"Iṣṭakhr",
+    "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
+    "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"37",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"37",
+    "kura_code":"1",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 52.66900556,30.195675 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Māʾīn",
+    "standardized_name":"مائين",
+    "kura_name":"Iṣṭakhr",
+    "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
+    "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
+    "id":"",
+    "loc":"modern village Māhīn, ruins of a large square building (caravanserail?)",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"41",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"41",
+    "kura_code":"1",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 54.31876002,29.19151726 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Nayrīz",
+    "standardized_name":"نيريز",
+    "kura_name":"Darābjird",
+    "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_shahrak",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"45",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"45",
+    "kura_code":"1",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.28931556,31.12768158 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Abarqūh",
+    "standardized_name":"أبرقوه",
+    "kura_name":"Ardashīr Khurra",
+    "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"http://www.geonames.org/145427/abarkuh.html",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"x",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+    "kura_code":"2",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 52.38962583,29.97194354 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"al-Bayḍāʾ",
+    "standardized_name":"البيضاء",
+    "kura_name":"Iṣṭakhr",
+    "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"Tell visible on Google Earth at the hamlet Shāh Qotbedīn near Tell-i Bayzā",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"x",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+    "kura_code":"1",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"according to al-Iṣṭakhrī, the largest city in kūrat Iṣṭakhr",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 54.47780574,28.69134428 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Darābjird",
+    "standardized_name":"درابجرد",
+    "kura_name":"Darābjird",
+    "city_type (Ibn al-Balkhī)":"cities of Dārābjird_kūra capital of Dārābjird",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"Sub-region capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"x",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"bishopric",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"x",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+    "kura_code":"3",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"",
+    "Comments":"Mint: 36-77;79-102; 128-129;383; first mentioned as a bishopric in 410; and listed as one but least important bishopric in Fārs by Eliya of Damascus in 893",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.66912231,28.91096769 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Fasā",
+    "standardized_name":"فسا",
+    "kura_name":"Darābjird",
+    "city_type (Ibn al-Balkhī)":"cities of Dārābjird_nāhiya capitals of Dārābjird_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"http://www.panoramio.com/photo/7149052?source=wapi&referrer=kh.google.com",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"x",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"x",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"x",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+    "kura_code":"3",
+    "region_code":"FAR",
+    "late Sasanian":"x",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"Mint: 43-83;79-82;331-400",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 54.9012194,26.5745111 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Ḥiṣn Ibn ʿUmāra",
+    "standardized_name":"",
+    "kura_name":"Ardashīr Khurra",
+    "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_",
+    "location_certainty":"no specific clues for an exact location",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"Site",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"x",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+    "kura_code":"",
+    "region_code":"",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 52.90773788,29.98123835 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Iṣṭakhr",
+    "standardized_name":"إصطخر",
+    "kura_name":"Iṣṭakhr",
+    "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_kūra capitals_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"ruins of Iṣṭakhr, called Takht-e Tāwūs",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"Sub-region capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"x",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+    "kura_code":"1",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"",
+    "Comments":"Mint: 31-82;79-102;128-129;138-140;282; first mentioned as bishopric in 424; listed as second most important non-suffragan bishopric in Fārs (after Shīrāz) by Eliya of Damascus in 893",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 52.53262362,28.85233156 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Jūr",
+    "standardized_name":"جور",
+    "kura_name":"Ardashīr Khurra",
+    "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"Sub-region capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"x",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+    "kura_code":"2",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"",
+    "Comments":"Mint: 35-83;79-99;129-146;204",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.12540922,28.4337837 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Kārzīn",
+    "standardized_name":"كارزين",
+    "kura_name":"Ardashīr Khurra",
+    "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_nāhiya capitals of Ardashīr Khurra_",
+    "location_certainty":"",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"http://www.panoramio.com/photo/36185950?source=wapi&referrer=kh.google.com",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"x",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"x",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+    "kura_code":"2",
+    "region_code":"FAR",
+    "late Sasanian":"x",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"Mint: 52-53",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 50.09040111,30.18301203 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Mahrūbān",
+    "standardized_name":"مهروبان",
+    "kura_name":"Arrajān",
+    "city_type (Ibn al-Balkhī)":"cities of Arrajān_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"x",
+    "Umayyad apex (Ca. 100/720)":"x",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"x",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+    "kura_code":"5",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 51.5207606,30.12192993 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Nūbandajān",
+    "standardized_name":"نوبندجان",
+    "kura_name":"Sābūr",
+    "city_type (Ibn al-Balkhī)":"cities of Sābūr_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"x",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+    "kura_code":"4",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"Mint: 346",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 50.8303583,28.9001139 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Rev Ardashīr",
+    "standardized_name":"",
+    "kura_name":"",
+    "city_type (Ibn al-Balkhī)":"",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"Site",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"metropolitan bishopric",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"x",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"x",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+    "kura_code":"",
+    "region_code":"",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"x",
+    "Būyid":"x",
+    "district capital":"",
+    "Comments":"first mentioned as see of the metropolitan in 540, last in 1139",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 51.57066155,29.77749865 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Sābūr",
+    "standardized_name":"سابور",
+    "kura_name":"Sābūr",
+    "city_type (Ibn al-Balkhī)":"cities of Sābūr_kūra capital of Sābūr_",
+    "location_certainty":"",
+    "id":"",
+    "loc":"cf. ANE.kml, AncientLocations; ruins visible on Google Earth",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"Sub-region capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"x",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"bishopric",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"x",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+    "kura_code":"4",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"",
+    "Comments":"Mint: 35-83;79-98;129;340;408; mentioned as a bishopric by Eliya of Damascus in 893; bishop of Bishapur was present at the enthronement of ʿAbdishōʿ I in 963",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 54.36899291,31.90149206 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Yazd",
+    "standardized_name":"يزد",
+    "kura_name":"Iṣṭakhr",
+    "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"the old Friday Mosque of Yazd, built in the 9th C; located at the NE side of the current mosque (map: Siroux, BIFAO 44 (1947), Pl. 1; http://www.ifao.egnet.net/bifao/Bifao044_art_05.pdf)",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"x",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"x",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"x",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+    "kura_code":"Yazd",
+    "region_code":"Yazd",
+    "late Sasanian":"x",
+    "Conquest and early Umayyad":"x",
+    "Būyid":"x",
+    "district capital":"x",
+    "Comments":"Mint: 35-83",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 50.27490359,30.65407744 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Arrajān",
+    "standardized_name":"أرجان",
+    "kura_name":"Arrajān",
+    "city_type (Ibn al-Balkhī)":"cities of Arrajān_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"ruins of early Islamic Arrajān, visible on Google Earth",
+    "note":"archaeological remains: from Sasanian period till middle Islamic Period (Gaube's Phasen A-C), cf. Gaube 1973: 187f.",
+    "radius":4,
+    "pic":"",
+    "Importance":"Sub-region capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"x",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"x",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"x",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"",
+    "kura_code":"5",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"",
+    "Comments":"Mint: 34-77; 269-394",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 50.50914338,29.58666017 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Jannāba",
+    "standardized_name":"جنابة",
+    "kura_name":"Arrajān",
+    "city_type (Ibn al-Balkhī)":"cities of Arrajān_",
+    "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
+    "id":"",
+    "loc":"modern city Ganāveh; Krawulsky 1978: 174: according to Wilson, the old city was located West of the new city, according to Gaube North-East, and according to Iqtidari north.",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"Site",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"x",
+    "Umayyad apex (Ca. 100/720)":"x",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"x",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"",
+    "kura_code":"5",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"",
+    "Comments":"Mint: 275-363",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.75928138,28.20397717 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Kāriyān",
+    "standardized_name":"كاريان",
+    "kura_name":"Sābūr",
+    "city_type (Ibn al-Balkhī)":"cities of Sābūr_",
+    "location_certainty":"no specific clues for an exact location",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"Site",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"fire temple",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"",
+    "kura_code":"4",
+    "region_code":"FAR",
+    "late Sasanian":"x",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 51.65892968,29.61606852 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Kāzerūn",
+    "standardized_name":"كازرون",
+    "kura_name":"Sābūr",
+    "city_type (Ibn al-Balkhī)":"cities of Sābūr_",
+    "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"Site",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"x",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"x",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"21",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"",
+    "kura_code":"4",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"",
+    "Comments":"Mint: 366-397",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 51.4765397,29.61029211 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Kumārij",
+    "standardized_name":"كمارج",
+    "kura_name":"Sābūr",
+    "city_type (Ibn al-Balkhī)":"cities of Sābūr_minbars of nāhiyas in Sābūr_",
+    "location_certainty":"",
+    "id":"",
+    "loc":"modern town Kamāraj",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"22",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"",
+    "kura_code":"4",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.08798255,32.86885556 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Nāʾīn",
+    "standardized_name":"نائين",
+    "kura_name":"Iṣṭakhr",
+    "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya minbars_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"http://www.panoramio.com/photo/10864235?source=wapi&referrer=kh.google.com",
+    "Importance":"Site",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"x",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"x",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"19",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"",
+    "kura_code":"1",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"",
+    "Comments":"Mint: 283;315;348-353;",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 52.54487598,29.60816032 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Shīrāz",
+    "standardized_name":"شيراز",
+    "kura_name":"Ardashīr Khurra",
+    "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_kūra capitals of Ardashīr Khurra_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"Provincial capital",
+    "Provincial Capital":"x",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"x",
+    "Mint":"x",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"",
+    "kura_code":"2",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"",
+    "Comments":"Mint: 31-52(ŠY);201-299(Fārs);279-400(Shīrāz)",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 50.26265435,29.86833861 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Sīnīz",
+    "standardized_name":"سينيز",
+    "kura_name":"Arrajān",
+    "city_type (Ibn al-Balkhī)":"cities of Arrajān_",
+    "location_certainty":"no specific clues for an exact location",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"x",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"",
+    "kura_code":"5",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 52.33511674,27.66728947 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Sīrāf",
+    "standardized_name":"سيراف",
+    "kura_name":"Ardashīr Khurra",
+    "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_kūra capital of Ardashīr Khurra_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"District capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"x",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"",
+    "kura_code":"0",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"x",
+    "Comments":"Mint: 280;305;322-391",
+    "district numbers":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 51.14782755,29.40881711 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Tawwaj",
+    "standardized_name":"توج",
+    "kura_name":"Ardashīr Khurra",
+    "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_nāhiya capitals of Ardashīr Khurra_",
+    "location_certainty":"",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    "pic":"",
+    "Importance":"Site",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"x",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"6",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"",
+    "kura_code":"2",
+    "region_code":"FAR",
+    "late Sasanian":"x",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"",
+    "Comments":"Mint: 67-80;82;388",
+    "district numbers":""
+    }
+  }
+];
+
+var alMamunLines = [
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.54487598,29.60816032 ],
+            [ 52.90773788,29.98123835 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Istakhr - Shiraz",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":12,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.54487598,29.60816032 ],
+            [ 51.57066155,29.77749865 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Sabur - Shiraz",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":12,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.54487598,29.60816032 ],
+            [ 52.53262362,28.85233156 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Jur - Shiraz",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":12,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.54487598,29.60816032 ],
+            [ 50.27490359,30.65407744 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Arrajan - Shiraz",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":12,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.54487598,29.60816032 ],
+            [ 54.47780574,28.69134428 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Darabjird - Shiraz",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":12,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 54.36899291,31.90149206 ],
+            [ 52.90773788,29.98123835 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Yazd - Istakhr",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 50.09040111,30.18301203 ],
+            [ 50.27490359,30.65407744 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Mahruban - Arrajan",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 53.66912231,28.91096769 ],
+            [ 54.47780574,28.69134428 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Fasa - Darabjird",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 53.55947222,28.50016044 ],
+            [ 54.47780574,28.69134428 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Jahrum - Darabjird",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 55.74430455,28.18104842 ],
+            [ 54.47780574,28.69134428 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Tarum - Darabjird",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 53.98328365,28.25000488 ],
+            [ 54.47780574,28.69134428 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Juwaym Abi Ahmad - Darabjird",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 53.85181101,28.86540899 ],
+            [ 54.47780574,28.69134428 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Tamistan - Darabjird",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 53.2220556,29.2721444 ],
+            [ 54.47780574,28.69134428 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Khuristan - Darabjird",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 53.97041906,28.93778147 ],
+            [ 54.47780574,28.69134428 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"al-Fustajan - Darabjird",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 54.31876002,29.19151726 ],
+            [ 54.47780574,28.69134428 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Nayriz - Darabjird",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 54.24588252,29.02090436 ],
+            [ 54.47780574,28.69134428 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Ij - Darabjird",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 53.75928138,28.20397717 ],
+            [ 53.98328365,28.25000488 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Kariyan - Juwaym Abi Ahmad",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 53.08798255,32.86885556 ],
+            [ 54.36899291,31.90149206 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Na'in - Yazd",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.33511674,27.66728947 ],
+            [ 52.53262362,28.85233156 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Siraf - Jur",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 50.8303583,28.9001139 ],
+            [ 51.4765397,29.61029211 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Rev Ardashir - Kumarij",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 51.14782755,29.40881711 ],
+            [ 51.4765397,29.61029211 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Tawwaj - Kumarij",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 51.65892968,29.61606852 ],
+            [ 51.4765397,29.61029211 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Kazerun - Kumarij",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 50.26265435,29.86833861 ],
+            [ 50.09040111,30.18301203 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Siniz - Mahruban",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 50.50914338,29.58666017 ],
+            [ 50.09040111,30.18301203 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Jannaba - Mahruban",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.38962583,29.97194354 ],
+            [ 52.90773788,29.98123835 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"al-Bayda - Istakhr",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 55.87024162,30.40518835 ],
+            [ 52.90773788,29.98123835 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"al-Rudhan - Istakhr",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 51.5207606,30.12192993 ],
+            [ 51.57066155,29.77749865 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Nubandajan - Sabur",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 51.4765397,29.61029211 ],
+            [ 51.57066155,29.77749865 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Kumarij - Sabur",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 50.50747834,30.53001033 ],
+            [ 50.27490359,30.65407744 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Furzuk - Arrajan",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.66900556,30.195675 ],
+            [ 52.90773788,29.98123835 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Ma'in - Istakhr",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.51872629,29.88614773 ],
+            [ 52.90773788,29.98123835 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Hizar - Istakhr",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.50196024,30.18884678 ],
+            [ 52.90773788,29.98123835 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Abraj - Istakhr",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 53.28931556,31.12768158 ],
+            [ 52.90773788,29.98123835 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Abarquh - Istakhr",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.85437559,27.74782649 ],
+            [ 52.53262362,28.85233156 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Kuran - Jur",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.96650463,28.34650998 ],
+            [ 52.53262362,28.85233156 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Abzar - Jur",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 53.03168533,28.46221035 ],
+            [ 52.53262362,28.85233156 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Qir - Jur",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 53.12540922,28.4337837 ],
+            [ 52.53262362,28.85233156 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Karzin - Jur",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.96127199,28.70096321 ],
+            [ 52.53262362,28.85233156 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"al-Simakan - Jur",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+];

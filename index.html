@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0" />
+
+    <title>Fars - The Early Islamic Empire at Work</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <style>
+      .mental-maps-menu {
+        margin-top: 200px;
+      }
+      .admin-maps-menu {
+        margin-top: 120px;
+      }
+    </style>
+
+
+</head>
+
+<body>
+
+  <div id="map"></div>
+
+  <div id="myNav" class="overlay">
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+   <div class="overlay-content">
+     <a href="index.html" id="home-title" onmouseover="closeMenuDivs()">Home</a>
+     <a id="mental-maps-div-button" onmouseover="openMMDiv()">Conceptual</a>
+     <a id="admin-maps-div-button" onmouseover="openAMDiv()">Administration</a>
+     <a href="https://pardeewalmsley.github.io/mintsOfEmpire/" onmouseover="closeMenuDivs()">Mints</a>
+   </div>
+
+   <div class="mental-maps-menu">
+     <a href="fars_index.html">Fars</a>
+     <a href="sham_index.html">Sham</a>
+     <a href="jazira_index.html">Jazira</a>
+     <a href="#">Ifriqiya</a>
+     <a href="#">Yemen</a>
+   </div>
+
+   <div class="admin-maps-menu">
+     <a href="https://pardeewalmsley.github.io/PowerLines/">Empire</a>
+   </div>
+
+  </div>
+
+  <span id="menu" onclick="openNav()">&#9776;</span>
+
+  <script src="data/umayyad_apex.geojson"></script>
+  <script src="data/mansur_harun.geojson"></script>
+  <script src="data/alMutadid.geojson"></script>
+  <script src="data/alMamun.geojson"></script>
+  <script src="js/leaflet-svg-shape-markers.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/leaflet-timeline-slider.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
