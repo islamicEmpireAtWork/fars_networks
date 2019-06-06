@@ -9,6 +9,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Abzar",
     "standardized_name":"أبزر",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_shahrak",
     "location_certainty":"",
     "id":"",
@@ -34,7 +35,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -47,6 +48,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Ṣīmakān",
     "standardized_name":"الصيمكان",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_nāhiya capitals of Ardashīr Khurra_",
     "location_certainty":"no specific clues for an exact location",
     "id":"modern town Dūzeh, which was formerly the centre of the Sīmakān district; not necessarily the exact location of Early Islamic Sīmakān town.",
@@ -72,7 +74,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -85,6 +87,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Jam",
     "standardized_name":"جم",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_minbars of nāhiyas of Ardashīr Khurra_",
     "location_certainty":"",
     "id":"",
@@ -110,7 +113,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -123,6 +126,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Juwaym",
     "standardized_name":"جويم",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_minbars of nāhiyas of Ardashīr Khurra_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -148,7 +152,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -161,6 +165,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Khabr",
     "standardized_name":"خبر",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_minbars of nāhiyas of Ardashīr Khurra_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -186,7 +191,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -199,6 +204,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Khūristān",
     "standardized_name":"خورستان",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_nāhiya capitals of Ardashīr Khurra_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -224,7 +230,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -237,6 +243,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Khurmaq",
     "standardized_name":"خرمق الأغرستان",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_nāhiya capitals of Ardashīr Khurra_",
     "location_certainty":"",
     "id":"capital of nāḥiyat al-Aghristān",
@@ -262,7 +269,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -275,6 +282,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Kurān",
     "standardized_name":"كران",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_nāhiya capitals of Ardashīr Khurra_",
     "location_certainty":"",
     "id":"",
@@ -300,7 +308,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -313,6 +321,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Qīr",
     "standardized_name":"قير",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_shahrak",
     "location_certainty":"",
     "id":"",
@@ -338,7 +347,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -351,6 +360,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Ṣafāra",
     "standardized_name":"صفارة",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_nāhiya capitals of Ardashīr Khurra_",
     "location_certainty":"no specific clues for an exact location",
     "id":"",
@@ -376,7 +386,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"capital of nāḥiyat Dasht al-Dastaqān",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -389,6 +399,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Furzuk",
     "standardized_name":"فرزك",
     "kura_name":"Arrajān",
+    "color":"#8cff00",
     "city_type (Ibn al-Balkhī)":"cities of Arrajān_nāhiya minbars of Arrajān_",
     "location_certainty":"no specific clues for an exact location",
     "id":"",
@@ -414,7 +425,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -427,6 +438,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Rīshahr",
     "standardized_name":"ريشهر",
     "kura_name":"Arrajān",
+    "color":"#8cff00",
     "city_type (Ibn al-Balkhī)":"cities of Arrajān_nāhiya minbars of Arrajān_",
     "location_certainty":"no specific clues for an exact location",
     "id":"",
@@ -452,7 +464,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -465,6 +477,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Abādeh",
     "standardized_name":"أباذه كرم",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"exact location unidentified; it is mentioned as one of the minbars of nāḥiyat Karam, so it is probably located near modern Tang-e Karam",
@@ -490,7 +503,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"capital of nāḥiyat Karam",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -503,6 +516,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Fustajān",
     "standardized_name":"الفستجان",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_shahr",
     "location_certainty":"no specific clues for an exact location",
     "id":"exact location unknown",
@@ -528,7 +542,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -541,6 +555,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Iṣṭahbānāt",
     "standardized_name":"الإصطهبانات",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_minbars of the nāhiyas of Dārābjird_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -566,7 +581,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -579,6 +594,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Mādhawān",
     "standardized_name":"الماذوان",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_minbars of the nāhiyas of Dārābjird_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -604,7 +620,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -617,6 +633,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Maṣṣ",
     "standardized_name":"المص",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_minbars of the nāhiyas of Dārābjird_",
     "location_certainty":"no specific clues for an exact location",
     "id":"",
@@ -642,7 +659,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"capital of nāḥiyat al-Maṣṣ",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -655,6 +672,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Murīzjān",
     "standardized_name":"المريزجان",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_minbars of the nāhiyas of Dārābjird_",
     "location_certainty":"no specific clues for an exact location",
     "id":"exact location unknown",
@@ -680,7 +698,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -693,6 +711,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Dārakān",
     "standardized_name":"داركان",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_minbars of the nāhiyas of Dārābjird_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -718,7 +737,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -731,6 +750,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Furg",
     "standardized_name":"فرج",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -756,7 +776,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -769,6 +789,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Īj",
     "standardized_name":"إيج",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_minbars of the nāhiyas of Dārābjird_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -794,7 +815,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -807,6 +828,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Jahrum",
     "standardized_name":"جهرم",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_nāhiya capitals of Dārābjird_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -832,7 +854,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"Mint: 65-72",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -845,6 +867,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Juwaym Abī Aḥmad",
     "standardized_name":"جويم أبي أحمد",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -870,7 +893,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -883,6 +906,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Rūbanj",
     "standardized_name":"روبنج",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_nāhiya capitals of Dārābjird_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"capital of nāḥiyat Ḥashawā",
@@ -908,7 +932,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -921,6 +945,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Rustāq",
     "standardized_name":"رستاق",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -946,7 +971,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -959,6 +984,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Ṭamistān",
     "standardized_name":"طمستان",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_minbars of the nāhiyas of Dārābjird_",
     "location_certainty":"no specific clues for an exact location",
     "id":"",
@@ -984,7 +1010,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -997,6 +1023,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Tārum",
     "standardized_name":"تارم",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -1022,7 +1049,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1035,6 +1062,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Abādeh",
     "standardized_name":"أباذه",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -1060,7 +1088,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1073,6 +1101,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Abraj",
     "standardized_name":"أبرج",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_dīh buzurg",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -1098,7 +1127,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1111,6 +1140,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Arjumān",
     "standardized_name":"الأرجمان",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -1136,7 +1166,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1149,6 +1179,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Fahraj",
     "standardized_name":"الفهرج",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya minbars_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"modern town Fahraj",
@@ -1174,7 +1205,7 @@ var alMutadid = [
     "district capital":"",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1187,6 +1218,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Ḥīra",
     "standardized_name":"الحيرة",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya minbars_",
     "location_certainty":"",
     "id":"unidentified; the fact that al-Iṣṭakhrī mentions it between the nāḥiyas al-Ṭassūj (capital: Khurrāma) and al-Kāskān (around present-day Marwdasht) suggest a location between Khurrāma and Marwdasht",
@@ -1212,7 +1244,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"capital of nāḥiyat al-Ḥīra",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1225,6 +1257,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Murīzjān",
     "standardized_name":"المريزجان",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"",
     "id":"location unidentified; since it is the capital of Bawwān, it was likely located in the area of present-day Bawwānāt",
@@ -1250,7 +1283,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"capital of Bawwān",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1263,6 +1296,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Rūdhān",
     "standardized_name":"الروذان",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"no specific clues for an exact location",
     "id":"Cornu identifies the place with Bahramabad ",
@@ -1288,7 +1322,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1301,6 +1335,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Bajja",
     "standardized_name":"بجة الأورد",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"modern Bāz-Bacheh",
@@ -1326,7 +1361,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1339,6 +1374,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Hizār",
     "standardized_name":"هزار",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -1364,7 +1400,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1377,6 +1413,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Iqlīd",
     "standardized_name":"إقليد",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -1402,7 +1439,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1415,6 +1452,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Kamīn",
     "standardized_name":"كمين",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya minbars_",
     "location_certainty":"no specific clues for an exact location",
     "id":"",
@@ -1440,7 +1478,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1453,6 +1491,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Khurrama",
     "standardized_name":"خرمة الطسوج",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -1478,7 +1517,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1491,6 +1530,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Māʾīn",
     "standardized_name":"مائين",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -1516,7 +1556,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1529,6 +1569,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Mashkān",
     "standardized_name":"مشكان الجوبرقان",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -1554,7 +1595,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1567,6 +1608,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Maybudh",
     "standardized_name":"ميبذ",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya minbars_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -1592,7 +1634,7 @@ var alMutadid = [
     "district capital":"",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1605,6 +1647,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Mihr Zanjān",
     "standardized_name":"مهر زنجان",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -1630,7 +1673,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1643,6 +1686,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Nayrīz",
     "standardized_name":"نيريز",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_shahrak",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -1668,7 +1712,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1681,6 +1725,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Qaryat al-Ās",
     "standardized_name":"قرية الآس|البودنجان",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -1706,7 +1751,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1719,6 +1764,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Ṣāhak",
     "standardized_name":"صاهك",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_shahrak",
     "location_certainty":"no specific clues for an exact location",
     "id":"",
@@ -1744,7 +1790,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1757,6 +1803,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Shahr Bābak",
     "standardized_name":"شهر بابك",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"road station",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -1782,7 +1829,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1795,6 +1842,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Surmaq",
     "standardized_name":"سرمق",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -1820,7 +1868,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1833,6 +1881,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Khūbadhān",
     "standardized_name":"الخوبذان",
     "kura_name":"Sābūr",
+    "color":"#6e00ff",
     "city_type (Ibn al-Balkhī)":"cities of Sābūr_nāhiya capitals of Sābūr_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -1858,7 +1907,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1871,6 +1920,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Kumārij",
     "standardized_name":"كمارج",
     "kura_name":"Sābūr",
+    "color":"#6e00ff",
     "city_type (Ibn al-Balkhī)":"cities of Sābūr_minbars of nāhiyas in Sābūr_",
     "location_certainty":"",
     "id":"",
@@ -1896,7 +1946,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1909,6 +1959,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Abarqūh",
     "standardized_name":"أبرقوه",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -1934,7 +1985,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1947,6 +1998,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Bayḍāʾ",
     "standardized_name":"البيضاء",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -1972,7 +2024,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"according to al-Iṣṭakhrī, the largest city in kūrat Iṣṭakhr",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -1985,6 +2037,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Ghundijān",
     "standardized_name":"الغندجان",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_",
     "location_certainty":"",
     "id":"capital of Dasht Bārīn. Location very unclear; Krawulsky 1978: 176f. places it near Burazjān; so does Cornu, based on the similarity of the name (sic). NB: only pre-islamic and recent material found in this area by Carter (2006)",
@@ -2010,7 +2063,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"capital of nāḥiyat Dasht Bārīn",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2023,6 +2076,7 @@ var alMutadid = [
     "standardised_transliterated_name":"al-Lūrjān",
     "standardized_name":"اللورجان",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"capital of nāḥiyat al-Sardan",
@@ -2048,7 +2102,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"capital of nāḥiyat al-Sardan. Later, al-Iṣṭakhrī says that al-Sardan is the largest city of the western part of kūrat Iṣṭakhr",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2061,6 +2115,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Arrajān",
     "standardized_name":"أرجان",
     "kura_name":"Arrajān",
+    "color":"#8cff00",
     "city_type (Ibn al-Balkhī)":"cities of Arrajān_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -2086,7 +2141,7 @@ var alMutadid = [
     "district capital":"",
     "Comments":"Mint: 34-77; 269-394",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2099,6 +2154,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Darābjird",
     "standardized_name":"درابجرد",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_kūra capital of Dārābjird",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -2124,7 +2180,7 @@ var alMutadid = [
     "district capital":"",
     "Comments":"Mint: 36-77;79-102; 128-129;383; first mentioned as a bishopric in 410; and listed as one but least important bishopric in Fārs by Eliya of Damascus in 893",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2137,6 +2193,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Fasā",
     "standardized_name":"فسا",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_nāhiya capitals of Dārābjird_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -2162,7 +2219,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"Mint: 43-83;79-82;331-400",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2175,6 +2232,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Harāt",
     "standardized_name":"هراة",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -2200,7 +2258,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2213,6 +2271,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Ḥiṣn Ibn ʿUmāra",
     "standardized_name":"",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_",
     "location_certainty":"no specific clues for an exact location",
     "id":"",
@@ -2238,7 +2297,7 @@ var alMutadid = [
     "district capital":"",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2251,6 +2310,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Iṣṭakhr",
     "standardized_name":"إصطخر",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_kūra capitals_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -2276,7 +2336,7 @@ var alMutadid = [
     "district capital":"",
     "Comments":"Mint: 31-82;79-102;128-129;138-140;282; first mentioned as bishopric in 424; listed as second most important non-suffragan bishopric in Fārs (after Shīrāz) by Eliya of Damascus in 893",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2289,6 +2349,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Jannāba",
     "standardized_name":"جنابة",
     "kura_name":"Arrajān",
+    "color":"#8cff00",
     "city_type (Ibn al-Balkhī)":"cities of Arrajān_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -2314,7 +2375,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"Mint: 275-363",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2327,6 +2388,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Jarra",
     "standardized_name":"جرة",
     "kura_name":"Sābūr",
+    "color":"#6e00ff",
     "city_type (Ibn al-Balkhī)":"cities of Sābūr_",
     "location_certainty":"no specific clues for an exact location",
     "id":"",
@@ -2352,7 +2414,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2365,6 +2427,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Jūr",
     "standardized_name":"جور",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -2390,7 +2453,7 @@ var alMutadid = [
     "district capital":"",
     "Comments":"Mint: 35-83;79-99;129-146;204",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2403,6 +2466,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Kārzīn",
     "standardized_name":"كارزين",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_nāhiya capitals of Ardashīr Khurra_",
     "location_certainty":"",
     "id":"",
@@ -2428,7 +2492,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"Mint: 52-53",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2441,6 +2505,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Kāzerūn",
     "standardized_name":"كازرون",
     "kura_name":"Sābūr",
+    "color":"#6e00ff",
     "city_type (Ibn al-Balkhī)":"cities of Sābūr_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -2466,7 +2531,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"Mint: 366-397",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2479,6 +2544,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Kurd",
     "standardized_name":"كرد",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"",
     "id":"",
@@ -2504,7 +2570,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2517,6 +2583,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Mahrūbān",
     "standardized_name":"مهروبان",
     "kura_name":"Arrajān",
+    "color":"#8cff00",
     "city_type (Ibn al-Balkhī)":"cities of Arrajān_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -2542,7 +2609,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2555,6 +2622,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Nāʾīn",
     "standardized_name":"نائين",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya minbars_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -2580,7 +2648,7 @@ var alMutadid = [
     "district capital":"",
     "Comments":"Mint: 283;315;348-353;",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2593,6 +2661,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Najīram",
     "standardized_name":"نجيرم",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_",
     "location_certainty":"no specific clues for an exact location",
     "id":"",
@@ -2618,7 +2687,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2631,6 +2700,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Nūbandajān",
     "standardized_name":"نوبندجان",
     "kura_name":"Sābūr",
+    "color":"#6e00ff",
     "city_type (Ibn al-Balkhī)":"cities of Sābūr_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -2656,7 +2726,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"Mint: 346",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2694,7 +2764,7 @@ var alMutadid = [
     "district capital":"",
     "Comments":"first mentioned as see of the metropolitan in 540, last in 1139",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2707,6 +2777,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Sābūr",
     "standardized_name":"سابور",
     "kura_name":"Sābūr",
+    "color":"#6e00ff",
     "city_type (Ibn al-Balkhī)":"cities of Sābūr_kūra capital of Sābūr_",
     "location_certainty":"",
     "id":"",
@@ -2732,7 +2803,7 @@ var alMutadid = [
     "district capital":"",
     "Comments":"Mint: 35-83;79-98;129;340;408; mentioned as a bishopric by Eliya of Damascus in 893; bishop of Bishapur was present at the enthronement of ʿAbdishōʿ I in 963",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2745,6 +2816,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Shīrāz",
     "standardized_name":"شيراز",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_kūra capitals of Ardashīr Khurra_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -2770,7 +2842,7 @@ var alMutadid = [
     "district capital":"",
     "Comments":"Mint: 31-52(ŠY);201-299(Fārs);279-400(Shīrāz); mentioned as a bishopric by Eliya of Damascus in 893",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2783,6 +2855,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Sīnīz",
     "standardized_name":"سينيز",
     "kura_name":"Arrajān",
+    "color":"#8cff00",
     "city_type (Ibn al-Balkhī)":"cities of Arrajān_",
     "location_certainty":"no specific clues for an exact location",
     "id":"",
@@ -2808,7 +2881,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2821,6 +2894,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Sīrāf",
     "standardized_name":"سيراف",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_kūra capital of Ardashīr Khurra_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -2846,7 +2920,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"Mint: 280;305;322-391; mentioned as a bishopric by Eliya of Damascus in 893",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2859,6 +2933,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Tawwaj",
     "standardized_name":"توج",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_nāhiya capitals of Ardashīr Khurra_",
     "location_certainty":"",
     "id":"",
@@ -2884,7 +2959,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"Mint: 67-80;82;388; al-Iṣṭakhrī lists it among the largest cities of Fārs (Same size as Iṣṭakhr, Sābūr, Dārābjird etc.)",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -2897,6 +2972,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Yazd",
     "standardized_name":"يزد",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -2922,7 +2998,7 @@ var alMutadid = [
     "district capital":"x",
     "Comments":"Mint: 35-83",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   }
 ];
@@ -2942,7 +3018,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":12,
+    "radius":8,
     }
   },
   {
@@ -2959,7 +3035,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":12,
+    "radius":8,
     }
   },
   {
@@ -2976,7 +3052,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":12,
+    "radius":8,
     }
   },
   {
@@ -2993,7 +3069,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":12,
+    "radius":8,
     }
   },
   {
@@ -3010,7 +3086,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":12,
+    "radius":8,
     }
   },
   {
@@ -3027,7 +3103,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3044,7 +3120,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3061,7 +3137,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3078,7 +3154,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3095,7 +3171,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3112,7 +3188,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3129,7 +3205,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3146,7 +3222,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3163,7 +3239,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3180,7 +3256,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3197,7 +3273,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3214,7 +3290,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3231,7 +3307,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3248,7 +3324,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3265,7 +3341,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3282,7 +3358,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3299,7 +3375,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3316,7 +3392,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3324,16 +3400,16 @@ var alMutadidLines = [
     "geometry": {
         "coordinates": [
             [ 53.2220556,29.2721444 ],
-            [ 54.47780574,28.69134428 ]
+            [ 52.54487598,29.60816032 ]
         ],
         "type": "LineString"
     },
     "properties": {
-    "standardised_transliterated_name":"Khuristan - Darabjird",
+    "standardised_transliterated_name":"Khuristan - Shiraz",
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3350,7 +3426,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3367,7 +3443,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3384,7 +3460,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3401,7 +3477,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3418,7 +3494,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3435,7 +3511,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3452,7 +3528,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3469,7 +3545,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3486,7 +3562,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3503,7 +3579,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3520,7 +3596,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":4,
+    "radius":2,
     }
   },
   {
@@ -3537,7 +3613,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":4,
+    "radius":2,
     }
   },
   {
@@ -3554,7 +3630,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":4,
+    "radius":2,
     }
   },
   {
@@ -3562,16 +3638,16 @@ var alMutadidLines = [
     "geometry": {
         "coordinates": [
             [ 52.39519271,29.82261735 ],
-            [ 52.53262362,28.85233156 ]
+            [ 52.54487598,29.60816032 ]
         ],
         "type": "LineString"
     },
     "properties": {
-    "standardised_transliterated_name":"Juwaym - Jur",
+    "standardised_transliterated_name":"Juwaym - Shiraz",
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3588,7 +3664,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3605,7 +3681,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3622,7 +3698,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3639,7 +3715,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":4,
+    "radius":2,
     }
   },
   {
@@ -3647,16 +3723,16 @@ var alMutadidLines = [
     "geometry": {
         "coordinates": [
             [ 51.14782755,29.40881711 ],
-            [ 51.57066155,29.77749865 ]
+            [ 52.53262362,28.85233156 ]
         ],
         "type": "LineString"
     },
     "properties": {
-    "standardised_transliterated_name":"Tawwaj - Sabur",
+    "standardised_transliterated_name":"Tawwaj - Jur",
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3673,7 +3749,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3681,16 +3757,16 @@ var alMutadidLines = [
     "geometry": {
         "coordinates": [
             [ 50.26265435,29.86833861 ],
-            [ 50.09040111,30.18301203 ]
+            [ 50.27490359,30.65407744 ]
         ],
         "type": "LineString"
     },
     "properties": {
-    "standardised_transliterated_name":"Siniz - Mahruban",
+    "standardised_transliterated_name":"Siniz - Arrajan",
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3698,16 +3774,16 @@ var alMutadidLines = [
     "geometry": {
         "coordinates": [
             [ 50.50914338,29.58666017 ],
-            [ 50.09040111,30.18301203 ]
+            [ 50.27490359,30.65407744 ]
         ],
         "type": "LineString"
     },
     "properties": {
-    "standardised_transliterated_name":"Jannaba - Mahruban",
+    "standardised_transliterated_name":"Jannaba - Arrajan",
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3724,7 +3800,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3741,7 +3817,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3758,7 +3834,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3775,7 +3851,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3792,7 +3868,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3809,7 +3885,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3826,7 +3902,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3843,7 +3919,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3860,7 +3936,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3877,7 +3953,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3885,16 +3961,16 @@ var alMutadidLines = [
     "geometry": {
         "coordinates": [
             [ 51.21301681,29.26309273 ],
-            [ 51.57066155,29.77749865 ]
+            [ 52.53262362,28.85233156 ]
         ],
         "type": "LineString"
     },
     "properties": {
-    "standardised_transliterated_name":"al-Ghundijan - Sabur",
+    "standardised_transliterated_name":"al-Ghundijan - Jur",
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3902,16 +3978,16 @@ var alMutadidLines = [
     "geometry": {
         "coordinates": [
             [ 51.2736778,28.8801472 ],
-            [ 51.57066155,29.77749865 ]
+            [ 52.53262362,28.85233156 ]
         ],
         "type": "LineString"
     },
     "properties": {
-    "standardised_transliterated_name":"Safara - Sabur",
+    "standardised_transliterated_name":"Safara - Jur",
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3919,16 +3995,16 @@ var alMutadidLines = [
     "geometry": {
         "coordinates": [
             [ 51.37885413,28.65465058 ],
-            [ 51.57066155,29.77749865 ]
+            [ 52.53262362,28.85233156 ]
         ],
         "type": "LineString"
     },
     "properties": {
-    "standardised_transliterated_name":"Khurmaq - Sabur",
+    "standardised_transliterated_name":"Khurmaq - Jur",
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3936,16 +4012,16 @@ var alMutadidLines = [
     "geometry": {
         "coordinates": [
             [ 51.11085705,28.48408161 ],
-            [ 51.57066155,29.77749865 ]
+            [ 52.53262362,28.85233156 ]
         ],
         "type": "LineString"
     },
     "properties": {
-    "standardised_transliterated_name":"Najiram - Sabur",
+    "standardised_transliterated_name":"Najiram - Jur",
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3962,7 +4038,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3979,7 +4055,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -3996,7 +4072,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -4013,7 +4089,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -4030,7 +4106,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -4047,7 +4123,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -4055,16 +4131,16 @@ var alMutadidLines = [
     "geometry": {
         "coordinates": [
             [ 53.28931556,31.12768158 ],
-            [ 52.90773788,29.98123835 ]
+            [ 52.54487598,29.60816032 ]
         ],
         "type": "LineString"
     },
     "properties": {
-    "standardised_transliterated_name":"Abarquh - Istakhr",
+    "standardised_transliterated_name":"Abarquh - Shiraz",
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -4081,7 +4157,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -4098,7 +4174,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -4115,7 +4191,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -4132,7 +4208,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -4149,7 +4225,7 @@ var alMutadidLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
 ];

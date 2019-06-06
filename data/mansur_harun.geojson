@@ -9,6 +9,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"Darābjird",
     "standardized_name":"درابجرد",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_kūra capital of Dārābjird",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -34,7 +35,7 @@ var mansurHarun = [
     "district capital":"",
     "Comments":"Mint: 36-77;79-102; 128-129;383; first mentioned as a bishopric in 410; and listed as one but least important bishopric in Fārs by Eliya of Damascus in 893",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -47,6 +48,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"Fasā",
     "standardized_name":"فسا",
     "kura_name":"Darābjird",
+    "color":"#00ffbf",
     "city_type (Ibn al-Balkhī)":"cities of Dārābjird_nāhiya capitals of Dārābjird_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -72,7 +74,7 @@ var mansurHarun = [
     "district capital":"x",
     "Comments":"Mint: 43-83;79-82;331-400",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -85,6 +87,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"Mahrūbān",
     "standardized_name":"مهروبان",
     "kura_name":"Arrajān",
+    "color":"#8cff00",
     "city_type (Ibn al-Balkhī)":"cities of Arrajān_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -110,7 +113,7 @@ var mansurHarun = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -148,7 +151,7 @@ var mansurHarun = [
     "district capital":"",
     "Comments":"first mentioned as see of the metropolitan in 540, last in 1139",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -161,6 +164,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"Sābūr",
     "standardized_name":"سابور",
     "kura_name":"Sābūr",
+    "color":"#6e00ff",
     "city_type (Ibn al-Balkhī)":"cities of Sābūr_kūra capital of Sābūr_",
     "location_certainty":"",
     "id":"",
@@ -186,7 +190,7 @@ var mansurHarun = [
     "district capital":"",
     "Comments":"Mint: 35-83;79-98;129;340;408; mentioned as a bishopric by Eliya of Damascus in 893; bishop of Bishapur was present at the enthronement of ʿAbdishōʿ I in 963",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -199,6 +203,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"Yazd",
     "standardized_name":"يزد",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -224,7 +229,7 @@ var mansurHarun = [
     "district capital":"x",
     "Comments":"Mint: 35-83",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -237,6 +242,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"al-Bayḍāʾ",
     "standardized_name":"البيضاء",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya capitals_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -262,7 +268,7 @@ var mansurHarun = [
     "district capital":"",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -275,6 +281,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"Arrajān",
     "standardized_name":"أرجان",
     "kura_name":"Arrajān",
+    "color":"#8cff00",
     "city_type (Ibn al-Balkhī)":"cities of Arrajān_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -300,7 +307,7 @@ var mansurHarun = [
     "district capital":"",
     "Comments":"Mint: 34-77; 269-394",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -313,6 +320,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"Jannāba",
     "standardized_name":"جنابة",
     "kura_name":"Arrajān",
+    "color":"#8cff00",
     "city_type (Ibn al-Balkhī)":"cities of Arrajān_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -338,7 +346,7 @@ var mansurHarun = [
     "district capital":"",
     "Comments":"Mint: 275-363",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -351,6 +359,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"Jūr",
     "standardized_name":"جور",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -376,7 +385,7 @@ var mansurHarun = [
     "district capital":"",
     "Comments":"Mint: 35-83;79-99;129-146;204",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -389,6 +398,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"Kāzerūn",
     "standardized_name":"كازرون",
     "kura_name":"Sābūr",
+    "color":"#6e00ff",
     "city_type (Ibn al-Balkhī)":"cities of Sābūr_",
     "location_certainty":"modern placename (ancient place may have been located at some distance from this point)",
     "id":"",
@@ -414,7 +424,7 @@ var mansurHarun = [
     "district capital":"",
     "Comments":"Mint: 366-397",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -427,6 +437,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"Nāʾīn",
     "standardized_name":"نائين",
     "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_nāhiya minbars_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -452,7 +463,7 @@ var mansurHarun = [
     "district capital":"",
     "Comments":"Mint: 283;315;348-353;",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -465,6 +476,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"Nūbandajān",
     "standardized_name":"نوبندجان",
     "kura_name":"Sābūr",
+    "color":"#6e00ff",
     "city_type (Ibn al-Balkhī)":"cities of Sābūr_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -490,7 +502,7 @@ var mansurHarun = [
     "district capital":"",
     "Comments":"Mint: 346",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -503,6 +515,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"Shīrāz",
     "standardized_name":"شيراز",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_kūra capitals of Ardashīr Khurra_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -528,7 +541,7 @@ var mansurHarun = [
     "district capital":"",
     "Comments":"Mint: 31-52(ŠY);201-299(Fārs);279-400(Shīrāz)",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -541,6 +554,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"Sīnīz",
     "standardized_name":"سينيز",
     "kura_name":"Arrajān",
+    "color":"#8cff00",
     "city_type (Ibn al-Balkhī)":"cities of Arrajān_",
     "location_certainty":"no specific clues for an exact location",
     "id":"",
@@ -566,7 +580,7 @@ var mansurHarun = [
     "district capital":"x",
     "Comments":"",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   },
   {
@@ -579,6 +593,7 @@ var mansurHarun = [
     "standardised_transliterated_name":"Sīrāf",
     "standardized_name":"سيراف",
     "kura_name":"Ardashīr Khurra",
+    "color":"#ffc400",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_kūra capital of Ardashīr Khurra_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -604,29 +619,12 @@ var mansurHarun = [
     "district capital":"",
     "Comments":"Mint: 280;305;322-391",
     "district numbers":"",
-    "radius":4
+    "radius":2
     }
   }
 ];
 
 var mansurHarunLines = [
-  {
-    "type": "Feature",
-    "geometry": {
-        "coordinates": [
-            [ 52.54487598,29.60816032 ],
-            [ 52.90773788,29.98123835 ]
-        ],
-        "type": "LineString"
-    },
-    "properties": {
-    "standardised_transliterated_name":"Istakhr - Shiraz",
-    "id":"",
-    "loc":"",
-    "note":"",
-    "radius":12,
-    }
-  },
   {
     "type": "Feature",
     "geometry": {
@@ -641,7 +639,7 @@ var mansurHarunLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":12,
+    "radius":8,
     }
   },
   {
@@ -658,7 +656,7 @@ var mansurHarunLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":12,
+    "radius":8,
     }
   },
   {
@@ -675,7 +673,7 @@ var mansurHarunLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":12,
+    "radius":8,
     }
   },
   {
@@ -692,7 +690,7 @@ var mansurHarunLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":12,
+    "radius":8,
     }
   },
   {
@@ -700,16 +698,16 @@ var mansurHarunLines = [
     "geometry": {
         "coordinates": [
             [ 54.36899291,31.90149206 ],
-            [ 52.90773788,29.98123835 ]
+            [ 52.54487598,29.60816032 ]
         ],
         "type": "LineString"
     },
     "properties": {
-    "standardised_transliterated_name":"Yazd - Istakhr",
+    "standardised_transliterated_name":"Yazd - Shiraz",
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -726,7 +724,7 @@ var mansurHarunLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -743,7 +741,7 @@ var mansurHarunLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -760,7 +758,7 @@ var mansurHarunLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":4,
+    "radius":2,
     }
   },
   {
@@ -777,7 +775,7 @@ var mansurHarunLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":4,
+    "radius":2,
     }
   },
   {
@@ -794,7 +792,7 @@ var mansurHarunLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":4,
+    "radius":2,
     }
   },
   {
@@ -811,7 +809,7 @@ var mansurHarunLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":4,
+    "radius":2,
     }
   },
   {
@@ -819,16 +817,16 @@ var mansurHarunLines = [
     "geometry": {
         "coordinates": [
             [ 50.26265435,29.86833861 ],
-            [ 50.09040111,30.18301203 ]
+            [ 50.27490359,30.65407744 ]
         ],
         "type": "LineString"
     },
     "properties": {
-    "standardised_transliterated_name":"Siniz - Mahruban",
+    "standardised_transliterated_name":"Siniz - Arrajan",
     "id":"",
     "loc":"",
     "note":"",
-    "radius":8,
+    "radius":4,
     }
   },
   {
@@ -836,16 +834,16 @@ var mansurHarunLines = [
     "geometry": {
         "coordinates": [
             [ 50.50914338,29.58666017 ],
-            [ 50.09040111,30.18301203 ]
+            [ 50.26265435,29.86833861 ]
         ],
         "type": "LineString"
     },
     "properties": {
-    "standardised_transliterated_name":"Jannaba - Mahruban",
+    "standardised_transliterated_name":"Jannaba - Siniz",
     "id":"",
     "loc":"",
     "note":"",
-    "radius":4,
+    "radius":2,
     }
   },
   {
@@ -862,7 +860,7 @@ var mansurHarunLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":4,
+    "radius":2,
     }
   },
   {
@@ -879,7 +877,7 @@ var mansurHarunLines = [
     "id":"",
     "loc":"",
     "note":"",
-    "radius":4,
+    "radius":2,
     }
   },
 ]

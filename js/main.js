@@ -1,8 +1,10 @@
 // Baselayer - Ancient World Mapping Centre tiles
 
-var mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v3/mapbox.blue-marble-topo-bathy-jul-bw/{z}/{x}/{y}.png', {
-attribution: 'Tiles &copy; Mapbox &mdash; Source: USGS, Esri, TANA, DeLorme, and NPS',
+var mapboxTiles = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaXNhd255dSIsImEiOiJBWEh1dUZZIn0.SiiexWxHHESIegSmW8wedQ', {
+attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
 maxZoom: 10,
+id: 'isawnyu.map-knmctlkh',
+accessToken: 'pk.eyJ1IjoiaXNhd255dSIsImEiOiJBWEh1dUZZIn0.SiiexWxHHESIegSmW8wedQ'
 });
 
 var map = L.map('map', {
@@ -150,11 +152,10 @@ function setIconSize() {
 };
 
 var umayyadLinesLayer = L.geoJson(umayyadApexLines, {
-  onEachFeature: onEachFeature,
   style: function (feature) {
 		return {
 			weight: feature.properties.radius,
-			color: "green",
+			color: "black",
 			opacity: 0.5,
 		};
 	}
@@ -172,7 +173,7 @@ var umayyadApexLayer = L.geoJson(umayyadApex, {
               shape: "square",
               weight: 1,
               opacity: 1,
-              fillColor: "green",
+              fillColor: feature.properties.color,
               fillOpacity: 0.5
           }
       )
@@ -180,11 +181,10 @@ var umayyadApexLayer = L.geoJson(umayyadApex, {
 }).addTo(map);
 
 var alMamunLinesLayer = L.geoJson(alMamunLines, {
-  onEachFeature: onEachFeature,
   style: function (feature) {
 		return {
 			weight: feature.properties.radius,
-			color: "green",
+			color: "black",
 			opacity: 0.5,
 		};
 	}
@@ -201,7 +201,7 @@ var alMamunLayer = L.geoJson(alMamun, {
               shape: "square",
               weight: 1,
               opacity: 1,
-              fillColor: "green",
+              fillColor: feature.properties.color,
               fillOpacity: 0.5
           }
       )
@@ -209,11 +209,10 @@ var alMamunLayer = L.geoJson(alMamun, {
 });
 
 var alMutadidLinesLayer = L.geoJson(alMutadidLines, {
-  onEachFeature: onEachFeature,
   style: function (feature) {
 		return {
 			weight: feature.properties.radius,
-			color: "green",
+			color: "black",
 			opacity: 0.5,
 		};
 	}
@@ -230,7 +229,7 @@ var alMutadidLayer = L.geoJson(alMutadid, {
               shape: "square",
               weight: 1,
               opacity: 1,
-              fillColor: "green",
+              fillColor: feature.properties.color,
               fillOpacity: 0.5
           }
       )
@@ -238,11 +237,10 @@ var alMutadidLayer = L.geoJson(alMutadid, {
 });
 
 var mansurHarunLinesLayer = L.geoJson(mansurHarunLines, {
-  onEachFeature: onEachFeature,
   style: function (feature) {
 		return {
 			weight: feature.properties.radius,
-			color: "green",
+			color: "black",
 			opacity: 0.5,
 		};
 	}
@@ -259,7 +257,7 @@ var mansurHarunLayer = L.geoJson(mansurHarun, {
               shape: "square",
               weight: 1,
               opacity: 1,
-              fillColor: "green",
+              fillColor: feature.properties.color,
               fillOpacity: 0.5
           }
       )
