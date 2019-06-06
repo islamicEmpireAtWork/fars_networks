@@ -17,7 +17,7 @@ var map = L.map('map', {
 
 function changeMap(label) {
   switch(label) {
-    case "Umayyad Apex <br> (ca. 100/720)":
+    case "<b>Umayyad Apex <br> (ca. 100/720)</b>":
       map.removeLayer(mansurHarunLayer);
 			map.removeLayer(mansurHarunLinesLayer);
       map.removeLayer(alMamunLayer);
@@ -28,7 +28,7 @@ function changeMap(label) {
 			map.addLayer(umayyadLinesLayer);
       map.addLayer(umayyadApexLayer);
       break;
-    case "Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)":
+    case "<b>Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)</b>":
       map.removeLayer(umayyadApexLayer);
 			map.removeLayer(umayyadLinesLayer);
       map.removeLayer(alMamunLayer);
@@ -39,7 +39,7 @@ function changeMap(label) {
 			map.addLayer(mansurHarunLinesLayer);
       map.addLayer(mansurHarunLayer);
       break;
-    case "al-Ma'mun to al-Mu'tasim <br> (ca. 198-227/813-842)":
+    case "<b>al-Ma'mun to al-Mu'tasim <br> (ca. 198-227/813-842)</b>":
       map.removeLayer(mansurHarunLayer);
 			map.removeLayer(mansurHarunLinesLayer);
       map.removeLayer(umayyadApexLayer);
@@ -50,7 +50,7 @@ function changeMap(label) {
 			map.addLayer(alMamunLinesLayer);
       map.addLayer(alMamunLayer);
       break;
-    case "al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)":
+    case "<b>al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)</b>":
       map.removeLayer(mansurHarunLayer);
 			map.removeLayer(mansurHarunLinesLayer);
       map.removeLayer(alMamunLayer);
@@ -267,13 +267,13 @@ var mansurHarunLayer = L.geoJson(mansurHarun, {
 /* Timeline slider */
 
 L.control.timelineSlider({
-                timelineItems: ["Umayyad Apex <br> (ca. 100/720)", "Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)", "al-Ma'mun to al-Mu'tasim <br> (ca. 198-227/813-842)", "al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)"],
+                timelineItems: ["<b>Umayyad Apex <br> (ca. 100/720)</b>", "<b>Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)</b>", "<b>al-Ma'mun to al-Mu'tasim <br> (ca. 198-227/813-842)</b>", "<b>al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)</b>"],
                 backgroundColor: "#000",
                 backgroundOpacity: 0,
                 labelWidth: "250px",
                 labelFontSize: "16px",
-                inactiveColor: "#ccc",
-                activeColor: "#00aeff",
+                inactiveColor: "#555",
+                activeColor: "#581845",
                 thumbHeight: "6px",
                 changeMap: function({label, value, map}) { changeMap(label); }
               })
