@@ -153,7 +153,7 @@ L.Control.TimeLineSlider = L.Control.extend({
             .control_container {
                 background-color: ${that.backgroundRGBA};
                 padding: ${that.options.topBgPadding} ${that.options.rightBgPadding} ${that.options.bottomBgPadding} ${that.options.leftBgPadding};
-                left: 25vw;
+                left: 7vw;
                 margin-top: -150px;
             }
 

@@ -9,7 +9,7 @@ accessToken: 'pk.eyJ1IjoiaXNhd255dSIsImEiOiJBWEh1dUZZIn0.SiiexWxHHESIegSmW8wedQ'
 
 var map = L.map('map', {
 	center: [29.5, 52],
-	zoom: 8,
+	zoom: 7,
 	layers: [mapboxTiles],
 });
 
