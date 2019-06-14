@@ -198,6 +198,18 @@ textarea {
   width: 20%;
 }
 
+/* leaflet layers control plugin css */
+.leaflet-control-layers {
+  background: rgba(10,10,10,0.8);
+  font-family: 'Raleway', sans-serif;
+  font-size: 14pt;
+  padding: 20px;
+  color: #ccc;
+  overflow-y: auto;
+  max-height: 95vh;
+  width: 300px;
+}
+
 /* Sub Menus */
 
 .mental-maps-menu {

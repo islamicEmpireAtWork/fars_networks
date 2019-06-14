@@ -15,51 +15,71 @@ var map = L.map('map', {
 
 // Change layer function
 
+function removeAllOverlays() {
+		var allOverlays = [umayyadApexLayer, umayyadLinesLayer, umayyadHarboursLayer, umayyadBishopricsLayer, umayyadMetropolitanBishopricsLayer, umayyadMintsLayer, mansurHarunLayer, mansurHarunLinesLayer, mansurHarunBishopricsLayer, mansurHarunMintsLayer, alMamunLayer, alMamunLinesLayer, alMamunHarboursLayer, alMamunBishopricsLayer, alMamunMintsLayer, alMutadidLayer, alMutadidLinesLayer, alMutadidHarboursLayer, alMutadidBishopricsLayer, alMutadidMintsLayer];
+		for (var i = 0; i < allOverlays.length; i++) {
+			map.removeLayer(allOverlays[i]);
+		};
+};
+
+function removeAllControls() {
+	var allControls = [umayyadLinesControl, mansurHarunLinesControl, alMamunLinesControl, alMutadidLinesControl];
+	for (var i = 0; i < allControls.length; i++) {
+		map.removeControl(allControls[i]);
+	};
+};
+
+
+
 function changeMap(label) {
   switch(label) {
     case "<b>Umayyad Apex <br> (ca. 100/720)</b>":
-      map.removeLayer(mansurHarunLayer);
-			map.removeLayer(mansurHarunLinesLayer);
-      map.removeLayer(alMamunLayer);
-			map.removeLayer(alMamunLinesLayer);
-      map.removeLayer(alMutadidLayer);
-			map.removeLayer(alMutadidLinesLayer);
+			removeAllOverlays();
+			removeAllControls();
 
 			map.addLayer(umayyadLinesLayer);
       map.addLayer(umayyadApexLayer);
+			map.addLayer(umayyadHarboursLayer);
+			map.addLayer(umayyadBishopricsLayer);
+			map.addLayer(umayyadMetropolitanBishopricsLayer);
+			map.addLayer(umayyadMintsLayer);
+			map.addControl(umayyadLinesControl);
       break;
     case "<b>Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)</b>":
-      map.removeLayer(umayyadApexLayer);
-			map.removeLayer(umayyadLinesLayer);
-      map.removeLayer(alMamunLayer);
-			map.removeLayer(alMamunLinesLayer);
-      map.removeLayer(alMutadidLayer);
-			map.removeLayer(alMutadidLinesLayer);
+			removeAllOverlays();
+			removeAllControls();
 
 			map.addLayer(mansurHarunLinesLayer);
       map.addLayer(mansurHarunLayer);
+			map.addLayer(umayyadHarboursLayer);
+			map.addLayer(mansurHarunBishopricsLayer);
+			map.addLayer(umayyadMetropolitanBishopricsLayer);
+			map.addLayer(mansurHarunMintsLayer);
+			map.addControl(mansurHarunLinesControl);
       break;
     case "<b>al-Ma'mun to al-Mu'tasim <br> (ca. 198-227/813-842)</b>":
-      map.removeLayer(mansurHarunLayer);
-			map.removeLayer(mansurHarunLinesLayer);
-      map.removeLayer(umayyadApexLayer);
-			map.removeLayer(umayyadLinesLayer);
-      map.removeLayer(alMutadidLayer);
-			map.removeLayer(alMutadidLinesLayer);
+      removeAllOverlays();
+			removeAllControls();
 
 			map.addLayer(alMamunLinesLayer);
       map.addLayer(alMamunLayer);
+			map.addLayer(alMamunHarboursLayer);
+			map.addLayer(alMamunBishopricsLayer);
+			map.addLayer(umayyadMetropolitanBishopricsLayer);
+			map.addLayer(alMamunMintsLayer);
+			map.addControl(alMamunLinesControl);
       break;
     case "<b>al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)</b>":
-      map.removeLayer(mansurHarunLayer);
-			map.removeLayer(mansurHarunLinesLayer);
-      map.removeLayer(alMamunLayer);
-			map.removeLayer(alMamunLinesLayer);
-      map.removeLayer(umayyadApexLayer);
-			map.removeLayer(umayyadLinesLayer);
+      removeAllOverlays();
+			removeAllControls();
 
 			map.addLayer(alMutadidLinesLayer);
       map.addLayer(alMutadidLayer);
+			map.addLayer(alMutadidHarboursLayer);
+			map.addLayer(alMutadidBishopricsLayer);
+			map.addLayer(umayyadMetropolitanBishopricsLayer);
+			map.addLayer(alMutadidMintsLayer);
+			map.addControl(alMutadidLinesControl);
       break;
     default:
       map.addLayer(umayyadApexLayer);
@@ -80,7 +100,7 @@ var popupOptions = {
 }
 
 function onEachFeature(feature, layer) {
-	var popup = L.popup(popupOptions, layer).setContent(feature.properties.standardised_transliterated_name);
+	var popup = L.popup(popupOptions, layer).setContent('<h3>' + feature.properties.standardised_transliterated_name + '</h3>');
 	layer.bindPopup(popup);
     layer.on({
         click: zoomToFeature,
@@ -159,7 +179,7 @@ var umayyadLinesLayer = L.geoJson(umayyadApexLines, {
 			opacity: 0.5,
 		};
 	}
-}).addTo(map);
+});
 
 
 var umayyadApexLayer = L.geoJson(umayyadApex, {
@@ -178,7 +198,7 @@ var umayyadApexLayer = L.geoJson(umayyadApex, {
           }
       )
   }
-}).addTo(map);
+});
 
 var alMamunLinesLayer = L.geoJson(alMamunLines, {
   style: function (feature) {
@@ -188,7 +208,7 @@ var alMamunLinesLayer = L.geoJson(alMamunLines, {
 			opacity: 0.5,
 		};
 	}
-}).addTo(map);
+});
 
 var alMamunLayer = L.geoJson(alMamun, {
   onEachFeature: onEachFeature,
@@ -216,7 +236,7 @@ var alMutadidLinesLayer = L.geoJson(alMutadidLines, {
 			opacity: 0.5,
 		};
 	}
-}).addTo(map);
+});
 
 var alMutadidLayer = L.geoJson(alMutadid, {
   onEachFeature: onEachFeature,
@@ -244,7 +264,7 @@ var mansurHarunLinesLayer = L.geoJson(mansurHarunLines, {
 			opacity: 0.5,
 		};
 	}
-}).addTo(map);
+});
 
 var mansurHarunLayer = L.geoJson(mansurHarun, {
   onEachFeature: onEachFeature,
@@ -264,6 +284,149 @@ var mansurHarunLayer = L.geoJson(mansurHarun, {
   }
 });
 
+// Harbours
+
+var harbourIcon = L.icon({
+	iconUrl: '../img/harbour.svg',
+	iconSize: [20, 20],
+	iconAnchor: [10, 0]
+})
+
+var umayyadHarboursLayer = L.geoJson(umayyadHarbours, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.marker (
+          latlng,
+          { icon: harbourIcon }
+      )
+  }
+});
+
+var alMamunHarboursLayer = L.geoJson(alMamunHarbours, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.marker (
+          latlng,
+          { icon: harbourIcon }
+      )
+  }
+});
+
+var alMutadidHarboursLayer = L.geoJson(alMutadidHarbours, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.marker (
+          latlng,
+          { icon: harbourIcon }
+      )
+  }
+});
+
+// Bishoprics
+
+var bishopricIcon = L.icon({
+	iconUrl: '../img/e_bish.svg',
+	iconSize: [30, 30],
+	iconAnchor: [2, 28]
+});
+
+var umayyadBishopricsLayer = L.geoJson(umayyadBishoprics, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.marker (
+          latlng,
+          { icon: bishopricIcon }
+      )
+  }
+});
+
+var mansurHarunBishopricsLayer = L.geoJson(mansurHarunBishoprics, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.marker (
+          latlng,
+          { icon: bishopricIcon }
+      )
+  }
+});
+
+var alMamunBishopricsLayer = L.geoJson(alMamunBishoprics, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.marker (
+          latlng,
+          { icon: bishopricIcon }
+      )
+  }
+});
+
+var alMutadidBishopricsLayer = L.geoJson(alMutadidBishoprics, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.marker (
+          latlng,
+          { icon: bishopricIcon }
+      )
+  }
+});
+
+// Metropolitan Bishoprics
+
+var metropolitanBishopricIcon = L.icon({
+	iconUrl: '../img/e_metBish.svg',
+	iconSize: [30, 30],
+	iconAnchor: [2, 28]
+});
+
+var umayyadMetropolitanBishopricsLayer = L.geoJson(umayyadMetropolitanBishoprics, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.marker (
+          latlng,
+          { icon: metropolitanBishopricIcon }
+      )
+  }
+});
+
+// Mints
+
+var mintStyle = {
+	radius: 8,
+	fillColor: "#000000",
+	color: "#000",
+	weight: 4,
+	opacity: 1,
+	fillOpacity: 0
+}
+
+var umayyadMintsLayer = L.geoJson(umayyadMints, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.circleMarker (latlng, mintStyle)
+  }
+});
+
+var mansurHarunMintsLayer = L.geoJson(mansurHarunMints, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.circleMarker (latlng, mintStyle)
+  }
+});
+
+var alMamunMintsLayer = L.geoJson(alMamunMints, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.circleMarker (latlng, mintStyle)
+  }
+});
+
+var alMutadidMintsLayer = L.geoJson(alMutadidMints, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.circleMarker (latlng, mintStyle)
+  }
+});
+
 /* Timeline slider */
 
 L.control.timelineSlider({
@@ -278,6 +441,129 @@ L.control.timelineSlider({
                 changeMap: function({label, value, map}) { changeMap(label); }
               })
             .addTo(map);
+
+	// layer Control
+
+	var cornuRoutesLayer = L.geoJson(cornuRoutes, {
+	  style: function (feature) {
+			return {
+				weight: 2,
+				color: "black",
+				opacity: 0.5,
+			};
+		}
+	});
+
+	var options = {
+		collapsed:false,
+	}
+
+	var umayyadOverlayMaps = {
+		label: 'Legend',
+		children: [
+			{
+				label: 'Lines',
+				children: [
+					{ label: " Routes", layer: cornuRoutesLayer },
+					{ label: " Power Lines", layer: umayyadLinesLayer }
+				]
+			},
+			{
+				label: 'Points',
+				children: [
+					{ label: ' Harbours', layer: umayyadHarboursLayer },
+					{ label: ' Bishoprics', layer: umayyadBishopricsLayer},
+					{ label: ' Metropolitan Bishoprics', layer: umayyadMetropolitanBishopricsLayer },
+					{ label: ' Mints', layer: umayyadMintsLayer }
+				]
+			}
+		]};
+
+	var umayyadLinesControl = L.control.layers.tree(null, umayyadOverlayMaps, options);
+
+	var mansurHarunOverlayMaps = {
+		label: 'Legend',
+		children: [
+			{
+				label: 'Lines',
+				children: [
+					{ label: " Routes", layer: cornuRoutesLayer },
+					{ label: " Power Lines", layer: mansurHarunLinesLayer }
+				]
+			},
+			{
+				label: 'Points',
+				children: [
+					{ label: ' Harbours', layer: umayyadHarboursLayer },
+					{ label: ' Bishoprics', layer: mansurHarunBishopricsLayer},
+					{ label: ' Metropolitan Bishoprics', layer: umayyadMetropolitanBishopricsLayer },
+					{ label: ' Mints', layer: mansurHarunMintsLayer }
+				]
+			}
+		]};
+
+	var mansurHarunLinesControl = L.control.layers.tree(null, mansurHarunOverlayMaps, options);
+
+	var alMamunOverlayMaps = {
+		label: 'Legend',
+		children: [
+			{
+				label: 'Lines',
+				children: [
+					{ label: " Routes", layer: cornuRoutesLayer },
+					{ label: " Power Lines", layer: alMamunLinesLayer }
+				]
+			},
+			{
+				label: 'Points',
+				children: [
+					{ label: ' Harbours', layer: alMamunHarboursLayer },
+					{ label: ' Bishoprics', layer: alMamunBishopricsLayer},
+					{ label: ' Metropolitan Bishoprics', layer: umayyadMetropolitanBishopricsLayer },
+					{ label: ' Mints', layer: alMamunMintsLayer }
+				]
+			}
+		]};
+
+	var alMamunLinesControl = L.control.layers.tree(null, alMamunOverlayMaps, options);
+
+	var alMutadidOverlayMaps = {
+		label: 'Legend',
+		children: [
+			{
+				label: 'Lines',
+				children: [
+					{ label: " Routes", layer: cornuRoutesLayer },
+					{ label: " Power Lines", layer: alMutadidLinesLayer }
+				]
+			},
+			{
+				label: 'Points',
+				children: [
+					{ label: ' Harbours', layer: alMutadidHarboursLayer },
+					{ label: ' Bishoprics', layer: alMutadidBishopricsLayer},
+					{ label: ' Metropolitan Bishoprics', layer: umayyadMetropolitanBishopricsLayer },
+					{ label: ' Mints', layer: alMutadidMintsLayer }
+				]
+			}
+		]};
+
+	var alMutadidLinesControl = L.control.layers.tree(null, alMutadidOverlayMaps, options);
+
+	map.on("overlayadd", function (event) {
+		var allOverlaysWithoutLines = [umayyadApexLayer, umayyadHarboursLayer, umayyadBishopricsLayer, umayyadMetropolitanBishopricsLayer, umayyadMintsLayer, mansurHarunLayer, mansurHarunBishopricsLayer, mansurHarunMintsLayer, alMamunLayer, alMamunHarboursLayer, alMamunBishopricsLayer, alMamunMintsLayer, alMutadidLayer, alMutadidHarboursLayer, alMutadidBishopricsLayer, alMutadidMintsLayer];
+		for (var i = 0; i < allOverlaysWithoutLines.length; i++) {
+			allOverlaysWithoutLines[i].bringToFront();
+		};
+	});
+
+	map.addLayer(umayyadLinesLayer);
+	map.addLayer(umayyadApexLayer);
+	map.addLayer(umayyadHarboursLayer);
+	map.addLayer(umayyadBishopricsLayer);
+	map.addLayer(umayyadMetropolitanBishopricsLayer);
+	map.addLayer(umayyadMintsLayer);
+	map.addControl(umayyadLinesControl);
 
 // Menu
 

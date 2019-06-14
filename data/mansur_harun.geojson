@@ -880,4 +880,125 @@ var mansurHarunLines = [
     "radius":2,
     }
   },
-]
+];
+
+var mansurHarunBishoprics = [
+    {
+      "type": "Feature",
+      "geometry": {
+         "type": "Point",
+         "coordinates":  [ 54.47780574,28.69134428 ]
+      },
+      "properties": {
+      "standardised_transliterated_name":"Darābjird",
+      "standardized_name":"درابجرد",
+      "kura_name":"Darābjird",
+      "color":"#00ffbf",
+      "city_type (Ibn al-Balkhī)":"cities of Dārābjird_kūra capital of Dārābjird",
+      "location_certainty":"confirmed remains from early Islamic times",
+      "id":"",
+      "loc":"",
+      "note":"",
+      "pic":"",
+      "Importance":"Sub-region capital",
+      "Provincial Capital":"",
+      "Kura/Sub-Region Capital":"x",
+      "Important city":"",
+      "Mint":"",
+      "Religious centre (e.g. Bishopric, Fire temple etc.)":"bishopric",
+      "Harbour":"",
+      "Umayyad apex (Ca. 100/720)":"",
+      "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"x",
+      "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+      "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+      "kura_code":"3",
+      "region_code":"FAR",
+      "late Sasanian":"",
+      "Conquest and early Umayyad":"",
+      "Būyid":"",
+      "district capital":"",
+      "Comments":"Mint: 36-77;79-102; 128-129;383; first mentioned as a bishopric in 410; and listed as one but least important bishopric in Fārs by Eliya of Damascus in 893",
+      "district numbers":"",
+      "radius":2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+         "type": "Point",
+         "coordinates":  [ 51.57066155,29.77749865 ]
+      },
+      "properties": {
+      "standardised_transliterated_name":"Sābūr",
+      "standardized_name":"سابور",
+      "kura_name":"Sābūr",
+      "color":"#6e00ff",
+      "city_type (Ibn al-Balkhī)":"cities of Sābūr_kūra capital of Sābūr_",
+      "location_certainty":"",
+      "id":"",
+      "loc":"cf. ANE.kml, AncientLocations; ruins visible on Google Earth",
+      "note":"",
+      "pic":"",
+      "Importance":"Sub-region capital",
+      "Provincial Capital":"",
+      "Kura/Sub-Region Capital":"x",
+      "Important city":"",
+      "Mint":"",
+      "Religious centre (e.g. Bishopric, Fire temple etc.)":"bishopric",
+      "Harbour":"",
+      "Umayyad apex (Ca. 100/720)":"",
+      "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"x",
+      "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"x",
+      "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+      "kura_code":"4",
+      "region_code":"FAR",
+      "late Sasanian":"",
+      "Conquest and early Umayyad":"",
+      "Būyid":"",
+      "district capital":"",
+      "Comments":"Mint: 35-83;79-98;129;340;408; mentioned as a bishopric by Eliya of Damascus in 893; bishop of Bishapur was present at the enthronement of ʿAbdishōʿ I in 963",
+      "district numbers":"",
+      "radius":2
+      }
+    }
+];
+
+var mansurHarunMints = {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ 52.53262362,28.85233156 ]
+  },
+  "properties": {
+  "standardised_transliterated_name":"Jūr",
+  "standardized_name":"جور",
+  "kura_name":"Ardashīr Khurra",
+  "color":"#ffc400",
+  "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_",
+  "location_certainty":"confirmed remains from early Islamic times",
+  "id":"",
+  "loc":"",
+  "note":"",
+  "pic":"",
+  "Importance":"Sub-region capital",
+  "Provincial Capital":"",
+  "Kura/Sub-Region Capital":"x",
+  "Important city":"",
+  "Mint":"x",
+  "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+  "Harbour":"",
+  "Umayyad apex (Ca. 100/720)":"x",
+  "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"x",
+  "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"",
+  "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"",
+  "kura_code":"2",
+  "region_code":"FAR",
+  "late Sasanian":"x",
+  "Conquest and early Umayyad":"x",
+  "Būyid":"",
+  "district capital":"",
+  "Comments":"Mint: 35-83;79-99;129-146;204",
+  "district numbers":"",
+  "radius":2
+  }
+};
