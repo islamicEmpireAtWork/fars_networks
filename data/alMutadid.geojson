@@ -1959,7 +1959,7 @@ var alMutadid = [
     "standardised_transliterated_name":"Abarqūh",
     "standardized_name":"أبرقوه",
     "kura_name":"Ardashīr Khurra",
-    "color":"#ffc400",
+    "color":"#ff5900",
     "city_type (Ibn al-Balkhī)":"cities of Ardashīr Khurra_",
     "location_certainty":"confirmed remains from early Islamic times",
     "id":"",
@@ -4131,12 +4131,12 @@ var alMutadidLines = [
     "geometry": {
         "coordinates": [
             [ 53.28931556,31.12768158 ],
-            [ 52.54487598,29.60816032 ]
+            [ 52.90773788,29.98123835 ]
         ],
         "type": "LineString"
     },
     "properties": {
-    "standardised_transliterated_name":"Abarquh - Shiraz",
+    "standardised_transliterated_name":"Abarquh - Istakhr",
     "id":"",
     "loc":"",
     "note":"",

@@ -23,9 +23,11 @@
 .leaflet-layerstree-header label {
     display: inline-block;
     cursor: pointer;
+    font-weight: normal;
 }
 
 .leaflet-layerstree-header-label {
+  font-weight: bold;
 }
 
 .leaflet-layerstree-header-name {

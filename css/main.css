@@ -217,7 +217,7 @@ textarea {
   background-color: rgba(0,0,0,0.9);
   width: 0vw;
   height: auto;
-  margin-top: 120px;
+  margin-top: 200px;
   left: 20vw;
   overflow-y: auto;
   line-height: 1;
@@ -235,7 +235,7 @@ textarea {
   background-color: rgba(0,0,0,0.9);
   width: 0vw;
   height: auto;
-  margin-top: 50px;
+  margin-top: 180px;
   left: 20vw;
   overflow-y: auto;
   line-height: 1;
@@ -247,6 +247,68 @@ textarea {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
+#menu {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  font-size: 30pt;
+  font-weight: 600;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+#menu:hover {
+  color: #00aeff;
+}
+
+
+#map {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+/* Legend */
+
+.legend {
+  position: absolute;
+  font-size: 16pt;
+  color: #555;
+  top: 40px;
+  margin: 10px;
+  padding: 5px;
+  height: auto;
+  z-index: 2;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+}
+.legend .closebtn {
+  position: relative;
+  font-size: 24pt;
+  color: #555;
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: block;
+}
+.legend .closebtn:hover {
+  color: #00aeff;
+}
+#legendTable td {
+  padding: 5px;
+}
+.legendLabel {
+  text-align: center;
+}
+#legendOpened {
+  display: none;
+}
+#legendClosed {
+  display: block;
+  background: none;
+}
+
 
 /* Media Queries */
 
@@ -271,8 +333,22 @@ textarea {
    font-size: 20pt;
    padding-bottom: 0px;
  }
+ .mental-maps-menu {
+  margin-top: 170px;
+  }
  .admin-maps-menu {
-   margin-top: 100px;
+   margin-top: 160px;
+ }
+ .legend {
+   font-size: 12pt;
+ }
+ #legendTable td {
+   padding: 0px;
+   padding-left: 5px;
+ }
+ .leaflet-control-layers {
+   width: 200px;
+   font-size: 12pt;
  }
 }
 
@@ -313,26 +389,4 @@ textarea {
  .closebtn {
    margin-top: -55px;
  }
-}
-
-#menu {
-  position: absolute;
-  display: block;
-  z-index: 2;
-  font-size: 30pt;
-  font-weight: 600;
-  padding-left: 10px;
-  cursor: pointer;
-}
-
-#menu:hover {
-  color: #00aeff;
-}
-
-
-#map {
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  z-index: 1;
 }

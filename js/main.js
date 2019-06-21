@@ -1,3 +1,5 @@
+var legendOpen = false;
+
 // Baselayer - Ancient World Mapping Centre tiles
 
 var mapboxTiles = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaXNhd255dSIsImEiOiJBWEh1dUZZIn0.SiiexWxHHESIegSmW8wedQ', {
@@ -28,8 +30,6 @@ function removeAllControls() {
 		map.removeControl(allControls[i]);
 	};
 };
-
-
 
 function changeMap(label) {
   switch(label) {
@@ -116,6 +116,20 @@ function onEachFeature(feature, layer) {
 
 /* Add data */
 
+var backgroundSitesStyle = {
+	radius: 1,
+	fillColor: "#777",
+	color: "#777",
+	weight: 4,
+	opacity: 1,
+}
+
+var backgroundSitesLayer = L.geoJson(sites, {
+	pointToLayer: function(feature, latlng) {
+      return L.circleMarker (latlng, backgroundSitesStyle)
+  }
+}).addTo(map);
+
 function setIconSize() {
   for (i = 0; i < umayyadApex.length; i++) {
     if (umayyadApex[i].properties.Importance == "Site") {
@@ -170,6 +184,7 @@ function setIconSize() {
     }
   }
 };
+
 
 var umayyadLinesLayer = L.geoJson(umayyadApexLines, {
   style: function (feature) {
@@ -462,14 +477,14 @@ L.control.timelineSlider({
 		label: 'Legend',
 		children: [
 			{
-				label: 'Lines',
+				label: 'Connections',
 				children: [
 					{ label: " Routes", layer: cornuRoutesLayer },
 					{ label: " Power Lines", layer: umayyadLinesLayer }
 				]
 			},
 			{
-				label: 'Points',
+				label: 'Sites',
 				children: [
 					{ label: ' Harbours', layer: umayyadHarboursLayer },
 					{ label: ' Bishoprics', layer: umayyadBishopricsLayer},
@@ -485,14 +500,14 @@ L.control.timelineSlider({
 		label: 'Legend',
 		children: [
 			{
-				label: 'Lines',
+				label: 'Connections',
 				children: [
 					{ label: " Routes", layer: cornuRoutesLayer },
 					{ label: " Power Lines", layer: mansurHarunLinesLayer }
 				]
 			},
 			{
-				label: 'Points',
+				label: 'Sites',
 				children: [
 					{ label: ' Harbours', layer: umayyadHarboursLayer },
 					{ label: ' Bishoprics', layer: mansurHarunBishopricsLayer},
@@ -508,14 +523,14 @@ L.control.timelineSlider({
 		label: 'Legend',
 		children: [
 			{
-				label: 'Lines',
+				label: 'Connections',
 				children: [
 					{ label: " Routes", layer: cornuRoutesLayer },
 					{ label: " Power Lines", layer: alMamunLinesLayer }
 				]
 			},
 			{
-				label: 'Points',
+				label: 'Sites',
 				children: [
 					{ label: ' Harbours', layer: alMamunHarboursLayer },
 					{ label: ' Bishoprics', layer: alMamunBishopricsLayer},
@@ -531,14 +546,14 @@ L.control.timelineSlider({
 		label: 'Legend',
 		children: [
 			{
-				label: 'Lines',
+				label: 'Connections',
 				children: [
 					{ label: " Routes", layer: cornuRoutesLayer },
 					{ label: " Power Lines", layer: alMutadidLinesLayer }
 				]
 			},
 			{
-				label: 'Points',
+				label: 'Sites',
 				children: [
 					{ label: ' Harbours', layer: alMutadidHarboursLayer },
 					{ label: ' Bishoprics', layer: alMutadidBishopricsLayer},
@@ -602,4 +617,17 @@ document.getElementsByClassName("admin-maps-menu")[0].style.width = "0vw";
 function closeMenuDivs() {
 document.getElementsByClassName("mental-maps-menu")[0].style.width = "0vw";
 document.getElementsByClassName("admin-maps-menu")[0].style.width = "0vw";
+}
+
+function toggleLegend() {
+
+  if (legendOpen) {
+    document.getElementById("legendClosed").style.display="block";
+    document.getElementById("legendOpened").style.display="none";
+    legendOpen = false;
+  } else {
+    document.getElementById("legendClosed").style.display="none";
+    document.getElementById("legendOpened").style.display="block";
+    legendOpen = true;
+  }
 }

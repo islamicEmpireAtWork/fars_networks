@@ -621,10 +621,103 @@ var mansurHarun = [
     "district numbers":"",
     "radius":2
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 52.90773788,29.98123835 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Iṣṭakhr",
+    "standardized_name":"إصطخر",
+    "kura_name":"Iṣṭakhr",
+    "color":"#ff5900",
+    "city_type (Ibn al-Balkhī)":"cities of Iṣṭakhr_kūra capitals_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"ruins of Iṣṭakhr, called Takht-e Tāwūs",
+    "note":"",
+    "radius":2,
+    "pic":"",
+    "Importance":"Sub-region capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"x",
+    "Important city":"",
+    "Mint":"x",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"bishopric",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"x",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"x",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"",
+    "kura_code":"1",
+    "region_code":"FAR",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"",
+    "Comments":"Mint: 31-82;79-102;128-129;138-140;282; first mentioned as bishopric in 424; listed as second most important non-suffragan bishopric in Fārs (after Shīrāz) by Eliya of Damascus in 893",
+    "district numbers":""
+    }
   }
 ];
 
 var mansurHarunLines = [
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.54487598,29.60816032 ],
+            [ 52.90773788,29.98123835 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Istakhr - Shiraz",
+    "color":"#ff5900",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":8,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 54.36899291,31.90149206 ],
+            [ 52.90773788,29.98123835 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Yazd - Istakhr",
+    "color":"#ff5900",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":4,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.38962583,29.97194354 ],
+            [ 52.90773788,29.98123835 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"al-Bayda - Istakhr",
+    "color":"#ff5900",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":2,
+    }
+  },
   {
     "type": "Feature",
     "geometry": {
@@ -691,23 +784,6 @@ var mansurHarunLines = [
     "loc":"",
     "note":"",
     "radius":8,
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-        "coordinates": [
-            [ 54.36899291,31.90149206 ],
-            [ 52.54487598,29.60816032 ]
-        ],
-        "type": "LineString"
-    },
-    "properties": {
-    "standardised_transliterated_name":"Yazd - Shiraz",
-    "id":"",
-    "loc":"",
-    "note":"",
-    "radius":4,
     }
   },
   {
@@ -840,23 +916,6 @@ var mansurHarunLines = [
     },
     "properties": {
     "standardised_transliterated_name":"Jannaba - Siniz",
-    "id":"",
-    "loc":"",
-    "note":"",
-    "radius":2,
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-        "coordinates": [
-            [ 52.38962583,29.97194354 ],
-            [ 52.54487598,29.60816032 ]
-        ],
-        "type": "LineString"
-    },
-    "properties": {
-    "standardised_transliterated_name":"al-Bayda - Shiraz",
     "id":"",
     "loc":"",
     "note":"",

@@ -153,7 +153,7 @@ L.Control.TimeLineSlider = L.Control.extend({
             .control_container {
                 background-color: ${that.backgroundRGBA};
                 padding: ${that.options.topBgPadding} ${that.options.rightBgPadding} ${that.options.bottomBgPadding} ${that.options.leftBgPadding};
-                left: 7vw;
+                left: 28vw;
                 margin-top: -150px;
             }
 
@@ -269,6 +269,12 @@ L.Control.TimeLineSlider = L.Control.extend({
             }
             .range-labels .active.selected::before {
                 display: none;
+            }
+            @media screen and (max-width: 1200px) {
+             .control_container {
+               left: 8vw;
+               margin-top: -100px;
+             }
             }
             `;
 
