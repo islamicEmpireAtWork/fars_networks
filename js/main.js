@@ -302,7 +302,7 @@ var mansurHarunLayer = L.geoJson(mansurHarun, {
 // Harbours
 
 var harbourIcon = L.icon({
-	iconUrl: '/img/harbour.svg',
+	iconUrl: './img/harbour.svg',
 	iconSize: [20, 20],
 	iconAnchor: [10, 0]
 })
@@ -340,7 +340,7 @@ var alMutadidHarboursLayer = L.geoJson(alMutadidHarbours, {
 // Bishoprics
 
 var bishopricIcon = L.icon({
-	iconUrl: '/img/e_bish.svg',
+	iconUrl: './img/e_bish.svg',
 	iconSize: [30, 30],
 	iconAnchor: [2, 28]
 });
@@ -388,7 +388,7 @@ var alMutadidBishopricsLayer = L.geoJson(alMutadidBishoprics, {
 // Metropolitan Bishoprics
 
 var metropolitanBishopricIcon = L.icon({
-	iconUrl: '/img/e_metBish.svg',
+	iconUrl: './img/e_metBish.svg',
 	iconSize: [30, 30],
 	iconAnchor: [2, 28]
 });
