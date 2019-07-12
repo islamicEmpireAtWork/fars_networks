@@ -3,6 +3,45 @@ var alMutadid = [
     "type": "Feature",
     "geometry": {
        "type": "Point",
+       "coordinates":  [ 44.36722177323169, 33.36528364992763 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Baghdad",
+    "standardized_name":"",
+    "kura_name":"",
+    "color":"#000000",
+    "city_type (Ibn al-Balkhī)":"",
+    "location_certainty":"",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "pic":"",
+    "Importance":"",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"",
+    "Important city":"",
+    "Mint":"",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"",
+    "kura_code":"",
+    "region_code":"",
+    "late Sasanian":"",
+    "Conquest and early Umayyad":"",
+    "Būyid":"",
+    "district capital":"",
+    "Comments":"",
+    "district numbers":"",
+    "radius":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
        "coordinates":  [ 52.96650463,28.34650998 ]
     },
     "properties": {
@@ -3009,6 +3048,24 @@ var alMutadidLines = [
     "geometry": {
         "coordinates": [
             [ 52.54487598,29.60816032 ],
+            [ 44.36722177323169, 33.36528364992763 ]
+        ],
+        "type": "LineString"
+    },
+    "properties": {
+    "standardised_transliterated_name":"Shiraz - Baghdad",
+    "color":"#ff5900",
+    "id":"",
+    "loc":"",
+    "note":"",
+    "radius":12,
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+        "coordinates": [
+            [ 52.54487598,29.60816032 ],
             [ 52.90773788,29.98123835 ]
         ],
         "type": "LineString"
@@ -4227,7 +4284,7 @@ var alMutadidLines = [
     "note":"",
     "radius":4,
     }
-  },
+  }
 ];
 
 var alMutadidHarbours = [
@@ -4822,4 +4879,46 @@ var alMutadidMints = [
     "radius":2
     }
   },
-]
+];
+
+var alMutadidCopperMints = [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 50.27490359,30.65407744 ]
+    },
+    "properties": {
+    "standardised_transliterated_name":"Arrajān",
+    "standardized_name":"أرجان",
+    "kura_name":"Arrajān",
+    "color":"#8cff00",
+    "city_type (Ibn al-Balkhī)":"cities of Arrajān_",
+    "location_certainty":"confirmed remains from early Islamic times",
+    "id":"",
+    "loc":"ruins of early Islamic Arrajān, visible on Google Earth",
+    "note":"archaeological remains: from Sasanian period till middle Islamic Period (Gaube's Phasen A-C), cf. Gaube 1973: 187f.",
+    "pic":"",
+    "Importance":"Sub-region capital",
+    "Provincial Capital":"",
+    "Kura/Sub-Region Capital":"x",
+    "Important city":"",
+    "Mint":"x",
+    "Religious centre (e.g. Bishopric, Fire temple etc.)":"",
+    "Harbour":"",
+    "Umayyad apex (Ca. 100/720)":"",
+    "Manṣūr-Hārūn al-Rashīd (ca. 136-193/754-809)":"",
+    "al-Maʾmūn to al-Muʿtaṣim (ca. 198-227/813-842)":"",
+    "al-Muʿtaḍid to al-Muqtadir (ca. 279-320/892-932)":"x",
+    "kura_code":"5",
+    "region_code":"FAR",
+    "late Sasanian":"x",
+    "Conquest and early Umayyad":"x",
+    "Būyid":"x",
+    "district capital":"",
+    "Comments":"Mint: 34-77; 269-394",
+    "district numbers":"",
+    "radius":2
+    }
+  }
+];

@@ -272,7 +272,7 @@ L.Control.TimeLineSlider = L.Control.extend({
             }
             @media screen and (max-width: 1200px) {
              .control_container {
-               left: 8vw;
+               left: 9vw;
                margin-top: -100px;
              }
             }

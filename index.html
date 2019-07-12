@@ -24,21 +24,22 @@
 
    <div class="overlay-content">
      <a href="https://pardeewalmsley.github.io/islamicempire/" id="home-title" onmouseover="closeMenuDivs()">Home</a>
-     <a id="mental-maps-div-button" onmouseover="openMMDiv()">Conceptual</a>
+     <a id="mental-maps-div-button" onmouseover="openMMDiv()">Authors' conceptions</a>
      <a id="admin-maps-div-button" onmouseover="openAMDiv()">Administration</a>
      <a href="https://pardeewalmsley.github.io/mintsOfEmpire/" onmouseover="closeMenuDivs()">Mints</a>
+     <a href="https://pardeewalmsley.github.io/islamicempire/about.html" onmouseover="closeMenuDivs()">About</a>
    </div>
 
    <div class="mental-maps-menu">
      <a href="https://pardeewalmsley.github.io/islamicempire/fars_index.html">Fars</a>
      <a href="https://pardeewalmsley.github.io/islamicempire/sham_index.html">Sham</a>
-     <a href="https://pardeewalmsley.github.io/islamicempire/jazira_index.html">Jazira</a>
+     <a href="https://pardeewalmsley.github.io/islamicempire/jazira_index.html">Jazira & Mosul</a>
      <a href="https://pardeewalmsley.github.io/islamicempire/ifriqiya_index.html">Ifriqiya</a>
      <a href="https://pardeewalmsley.github.io/islamicempire/alyaman_index.html">Yemen</a>
    </div>
 
    <div class="admin-maps-menu">
-     <a href="https://pardeewalmsley.github.io/PowerLines/">Empire</a>
+     <a href="https://pardeewalmsley.github.io/PowerLines/">Empire (beta)</a>
      <a href="https://pardeewalmsley.github.io/fars_networks/">Fars</a>
    </div>
 
@@ -94,7 +95,7 @@
          </svg>
        </td>
        <td>
-        Site not mentioned in text
+        Other site (affiliation not attested)
       </td>
     </tr>
     <tr>
@@ -170,7 +171,7 @@
         <img src="img/e_bish.svg" width="24">
       </td>
       <td>
-        Bishopric (Eastern Church)
+        Bishopric (Church of the East)
       </td>
     </tr>
     <tr>
@@ -178,7 +179,7 @@
         <img src="img/e_metBish.svg" width="24">
       </td>
       <td>
-        Metropolitan Bishopric (Eastern Church)
+        Metropolitan Bishopric (Church of the East)
       </td>
     </tr>
     <tr>
@@ -190,9 +191,21 @@
         </svg>
       </td>
       <td>
-       Mint
+       Precious metal mint
      </td>
    </tr>
+   <tr>
+     <td class="legendLabel">
+       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+         <g>
+            <circle cx="16" cy="16" r="5" fill="#000" stroke="#000" stroke-width="4" fill-opacity="1" stroke-opacity="0"/>
+         </g>
+       </svg>
+     </td>
+     <td>
+      Copper mint
+    </td>
+  </tr>
   </table>
   </div>
   <div id="legendClosed" class="legend">
@@ -205,6 +218,7 @@
   <script src="data/mansur_harun.geojson"></script>
   <script src="data/alMutadid.geojson"></script>
   <script src="data/alMamun.geojson"></script>
+  <script src="data/samarra.geojson"></script>
   <script src="js/L.Control.Layers.Tree.js"></script>
   <script src="js/leaflet-svg-shape-markers.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

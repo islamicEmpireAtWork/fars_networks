@@ -17,15 +17,147 @@ var map = L.map('map', {
 
 // Change layer function
 
-function removeAllOverlays() {
-		var allOverlays = [umayyadApexLayer, umayyadLinesLayer, umayyadHarboursLayer, umayyadBishopricsLayer, umayyadMetropolitanBishopricsLayer, umayyadMintsLayer, mansurHarunLayer, mansurHarunLinesLayer, mansurHarunBishopricsLayer, mansurHarunMintsLayer, alMamunLayer, alMamunLinesLayer, alMamunHarboursLayer, alMamunBishopricsLayer, alMamunMintsLayer, alMutadidLayer, alMutadidLinesLayer, alMutadidHarboursLayer, alMutadidBishopricsLayer, alMutadidMintsLayer];
-		for (var i = 0; i < allOverlays.length; i++) {
-			map.removeLayer(allOverlays[i]);
-		};
+function removeAllOverlays(label) {
+		map.eachLayer(function(layer) {
+			if (layer == umayyadLinesLayer || layer == mansurHarunLinesLayer || layer == alMamunLinesLayer || layer == samarraLinesLayer || layer == alMutadidLinesLayer) {
+					map.removeLayer(layer);
+				switch(label) {
+		    case "<b>Umayyad Apex <br> (ca. 100/720)</b>":
+					map.addLayer(umayyadLinesLayer);
+		      break;
+		    case "<b>Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)</b>":
+					map.addLayer(mansurHarunLinesLayer);
+		      break;
+		    case "<b>al-Ma'mun to al-Mu'tasim <br> (ca. 198-221/813-836)</b>":
+					map.addLayer(alMamunLinesLayer);
+		      break;
+				case "<b>Samarra period <br> (ca. 221-279/836-892)</b>":
+					map.addLayer(samarraLinesLayer);
+		      break;
+		    case "<b>al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)</b>":
+					map.addLayer(alMutadidLinesLayer);
+		      break;
+			  }
+			} else if (layer == umayyadApexLayer || layer == mansurHarunLayer || layer == alMamunLayer || layer == samarraLayer || layer == alMutadidLayer) {
+					map.removeLayer(layer);
+				switch(label) {
+		    case "<b>Umayyad Apex <br> (ca. 100/720)</b>":
+					map.addLayer(umayyadApexLayer);
+		      break;
+		    case "<b>Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)</b>":
+					map.addLayer(mansurHarunLayer);
+		      break;
+		    case "<b>al-Ma'mun to al-Mu'tasim <br> (ca. 198-221/813-836)</b>":
+					map.addLayer(alMamunLayer);
+		      break;
+				case "<b>Samarra period <br> (ca. 221-279/836-892)</b>":
+					map.addLayer(samarraLayer);
+		      break;
+		    case "<b>al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)</b>":
+					map.addLayer(alMutadidLayer);
+		      break;
+			  }
+			} else if (layer == umayyadHarboursLayer || layer == alMamunHarboursLayer || layer == alMutadidHarboursLayer) {
+					map.removeLayer(layer);
+				switch(label) {
+		    case "<b>Umayyad Apex <br> (ca. 100/720)</b>":
+					map.addLayer(umayyadHarboursLayer);
+		      break;
+		    case "<b>Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)</b>":
+					map.addLayer(umayyadHarboursLayer);
+		      break;
+		    case "<b>al-Ma'mun to al-Mu'tasim <br> (ca. 198-221/813-836)</b>":
+					map.addLayer(alMamunHarboursLayer);
+		      break;
+				case "<b>Samarra period <br> (ca. 221-279/836-892)</b>":
+					map.addLayer(alMamunHarboursLayer);
+		      break;
+		    case "<b>al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)</b>":
+					map.addLayer(alMutadidHarboursLayer);
+		      break;
+			  }
+			} else if (layer == umayyadBishopricsLayer || layer == mansurHarunBishopricsLayer || layer == alMamunBishopricsLayer || layer == alMutadidBishopricsLayer) {
+				map.removeLayer(layer);
+				switch(label) {
+					case "<b>Umayyad Apex <br> (ca. 100/720)</b>":
+						map.addLayer(umayyadBishopricsLayer);
+						break;
+					case "<b>Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)</b>":
+						map.addLayer(mansurHarunBishopricsLayer);
+						break;
+					case "<b>al-Ma'mun to al-Mu'tasim <br> (ca. 198-221/813-836)</b>":
+						map.addLayer(alMamunBishopricsLayer);
+						break;
+					case "<b>Samarra period <br> (ca. 221-279/836-892)</b>":
+						map.addLayer(alMamunBishopricsLayer);
+						break;
+					case "<b>al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)</b>":
+						map.addLayer(alMutadidBishopricsLayer);
+						break;
+				}
+			} else if (layer == umayyadMetropolitanBishopricsLayer) {
+				map.removeLayer(layer);
+				switch(label) {
+					case "<b>Umayyad Apex <br> (ca. 100/720)</b>":
+						map.addLayer(umayyadMetropolitanBishopricsLayer);
+						break;
+					case "<b>Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)</b>":
+						map.addLayer(umayyadMetropolitanBishopricsLayer);
+						break;
+					case "<b>al-Ma'mun to al-Mu'tasim <br> (ca. 198-221/813-836)</b>":
+						map.addLayer(umayyadMetropolitanBishopricsLayer);
+						break;
+					case "<b>Samarra period <br> (ca. 221-279/836-892)</b>":
+						map.addLayer(umayyadMetropolitanBishopricsLayer);
+						break;
+					case "<b>al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)</b>":
+						map.addLayer(umayyadMetropolitanBishopricsLayer);
+						break;
+				}
+			} else if (layer == umayyadMintsLayer || layer == mansurHarunMintsLayer || layer == alMamunMintsLayer || layer == alMutadidMintsLayer) {
+				map.removeLayer(layer);
+				switch(label) {
+					case "<b>Umayyad Apex <br> (ca. 100/720)</b>":
+						map.addLayer(umayyadMintsLayer);
+						break;
+					case "<b>Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)</b>":
+						map.addLayer(mansurHarunMintsLayer);
+						break;
+					case "<b>al-Ma'mun to al-Mu'tasim <br> (ca. 198-221/813-836)</b>":
+						map.addLayer(alMamunMintsLayer);
+						break;
+					case "<b>Samarra period <br> (ca. 221-279/836-892)</b>":
+						map.addLayer(alMamunMintsLayer);
+						break;
+					case "<b>al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)</b>":
+						map.addLayer(alMutadidMintsLayer);
+						break;
+				}
+			} else if (layer == umayyadCopperMintsLayer || layer == mansurHarunCopperMintsLayer || layer == alMamunCopperMintsLayer || layer == samarraCopperMintsLayer || layer == alMutadidCopperMintsLayer) {
+				map.removeLayer(layer);
+				switch(label) {
+					case "<b>Umayyad Apex <br> (ca. 100/720)</b>":
+						map.addLayer(umayyadCopperMintsLayer);
+						break;
+					case "<b>Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)</b>":
+						map.addLayer(mansurHarunCopperMintsLayer);
+						break;
+					case "<b>al-Ma'mun to al-Mu'tasim <br> (ca. 198-221/813-836)</b>":
+						map.addLayer(alMamunCopperMintsLayer);
+						break;
+					case "<b>Samarra period <br> (ca. 221-279/836-892)</b>":
+						map.addLayer(samarraCopperMintsLayer);
+						break;
+					case "<b>al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)</b>":
+						map.addLayer(alMutadidCopperMintsLayer);
+						break;
+				}
+			}
+	});
 };
 
-function removeAllControls() {
-	var allControls = [umayyadLinesControl, mansurHarunLinesControl, alMamunLinesControl, alMutadidLinesControl];
+function removeAllControls(label) {
+	var allControls = [umayyadLinesControl, mansurHarunLinesControl, alMamunLinesControl, samarraLinesControl, alMutadidLinesControl];
 	for (var i = 0; i < allControls.length; i++) {
 		map.removeControl(allControls[i]);
 	};
@@ -34,51 +166,33 @@ function removeAllControls() {
 function changeMap(label) {
   switch(label) {
     case "<b>Umayyad Apex <br> (ca. 100/720)</b>":
-			removeAllOverlays();
-			removeAllControls();
-
-			map.addLayer(umayyadLinesLayer);
+			map.addLayer(backgroundSitesLayer);
+			//map.addLayer(umayyadLinesLayer);
       map.addLayer(umayyadApexLayer);
-			map.addLayer(umayyadHarboursLayer);
-			map.addLayer(umayyadBishopricsLayer);
-			map.addLayer(umayyadMetropolitanBishopricsLayer);
-			map.addLayer(umayyadMintsLayer);
 			map.addControl(umayyadLinesControl);
       break;
     case "<b>Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)</b>":
-			removeAllOverlays();
-			removeAllControls();
-
-			map.addLayer(mansurHarunLinesLayer);
+			map.addLayer(backgroundSitesLayer);
+			//map.addLayer(mansurHarunLinesLayer);
       map.addLayer(mansurHarunLayer);
-			map.addLayer(umayyadHarboursLayer);
-			map.addLayer(mansurHarunBishopricsLayer);
-			map.addLayer(umayyadMetropolitanBishopricsLayer);
-			map.addLayer(mansurHarunMintsLayer);
 			map.addControl(mansurHarunLinesControl);
       break;
-    case "<b>al-Ma'mun to al-Mu'tasim <br> (ca. 198-227/813-842)</b>":
-      removeAllOverlays();
-			removeAllControls();
-
-			map.addLayer(alMamunLinesLayer);
+    case "<b>al-Ma'mun to al-Mu'tasim <br> (ca. 198-221/813-836)</b>":
+			map.addLayer(backgroundSitesLayer);
+			//map.addLayer(alMamunLinesLayer);
       map.addLayer(alMamunLayer);
-			map.addLayer(alMamunHarboursLayer);
-			map.addLayer(alMamunBishopricsLayer);
-			map.addLayer(umayyadMetropolitanBishopricsLayer);
-			map.addLayer(alMamunMintsLayer);
 			map.addControl(alMamunLinesControl);
       break;
+		case "<b>Samarra period <br> (ca. 221-279/836-892)</b>":
+			map.addLayer(backgroundSitesLayer);
+			//map.addLayer(samarraLinesLayer);
+      map.addLayer(samarraLayer);
+			map.addControl(samarraLinesControl);
+      break;
     case "<b>al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)</b>":
-      removeAllOverlays();
-			removeAllControls();
-
-			map.addLayer(alMutadidLinesLayer);
+			map.addLayer(backgroundSitesLayer);
+			//map.addLayer(alMutadidLinesLayer);
       map.addLayer(alMutadidLayer);
-			map.addLayer(alMutadidHarboursLayer);
-			map.addLayer(alMutadidBishopricsLayer);
-			map.addLayer(umayyadMetropolitanBishopricsLayer);
-			map.addLayer(alMutadidMintsLayer);
 			map.addControl(alMutadidLinesControl);
       break;
     default:
@@ -100,7 +214,7 @@ var popupOptions = {
 }
 
 function onEachFeature(feature, layer) {
-	var popup = L.popup(popupOptions, layer).setContent('<h3>' + feature.properties.standardised_transliterated_name + '</h3>');
+	var popup = L.popup(popupOptions, layer).setContent('<h3>' + feature.properties.standardised_transliterated_name + '</h3><h5><b> Kura:</b> ' + feature.properties.kura_name + '</h5>');
 	layer.bindPopup(popup);
     layer.on({
         click: zoomToFeature,
@@ -125,10 +239,11 @@ var backgroundSitesStyle = {
 }
 
 var backgroundSitesLayer = L.geoJson(sites, {
+	onEachFeature: onEachFeature,
 	pointToLayer: function(feature, latlng) {
       return L.circleMarker (latlng, backgroundSitesStyle)
   }
-}).addTo(map);
+});
 
 function setIconSize() {
   for (i = 0; i < umayyadApex.length; i++) {
@@ -140,8 +255,10 @@ function setIconSize() {
         umayyadApex[i].properties.radius = 12;
     } else if (umayyadApex[i].properties.Importance == "Provincial capital") {
         umayyadApex[i].properties.radius = 16;
+    } else if (umayyadApex[i].properties.Importance == "Super-provincial capital") {
+        umayyadApex[i].properties.radius = 20;
     } else {
-        umayyadApex[i].properties.radius = 4;
+        umayyadApex[i].properties.radius = 24;
     }
   }
   for (i = 0; i < mansurHarun.length; i++) {
@@ -153,8 +270,10 @@ function setIconSize() {
         mansurHarun[i].properties.radius = 12;
     } else if (mansurHarun[i].properties.Importance == "Provincial capital") {
         mansurHarun[i].properties.radius = 16;
+    } else if (mansurHarun[i].properties.Importance == "Super-provincial capital") {
+        mansurHarun[i].properties.radius = 20;
     } else {
-        mansurHarun[i].properties.radius = 4;
+        mansurHarun[i].properties.radius = 24;
     }
   }
   for (i = 0; i < alMamun.length; i++) {
@@ -166,8 +285,25 @@ function setIconSize() {
         alMamun[i].properties.radius = 12;
     } else if (alMamun[i].properties.Importance == "Provincial capital") {
         alMamun[i].properties.radius = 16;
+    } else if (alMamun[i].properties.Importance == "Super-provincial capital") {
+        alMamun[i].properties.radius = 20;
     } else {
-        alMamun[i].properties.radius = 4;
+        alMamun[i].properties.radius = 24;
+    }
+  }
+	for (i = 0; i < samarra.length; i++) {
+    if (samarra[i].properties.Importance == "Site") {
+        samarra[i].properties.radius = 4;
+    } else if (samarra[i].properties.Importance == "District capital") {
+        samarra[i].properties.radius = 8;
+    } else if (samarra[i].properties.Importance == "Sub-region capital") {
+        samarra[i].properties.radius = 12;
+    } else if (samarra[i].properties.Importance == "Provincial capital") {
+        samarra[i].properties.radius = 16;
+    } else if (samarra[i].properties.Importance == "Super-provincial capital") {
+        samarra[i].properties.radius = 20;
+    } else {
+        samarra[i].properties.radius = 24;
     }
   }
   for (i = 0; i < alMutadid.length; i++) {
@@ -179,8 +315,10 @@ function setIconSize() {
         alMutadid[i].properties.radius = 12;
     } else if (alMutadid[i].properties.Importance == "Provincial capital") {
         alMutadid[i].properties.radius = 16;
+    } else if (alMutadid[i].properties.Importance == "Provincial capital") {
+        alMutadid[i].properties.radius = 20;
     } else {
-        alMutadid[i].properties.radius = 4;
+        alMutadid[i].properties.radius = 24;
     }
   }
 };
@@ -226,6 +364,34 @@ var alMamunLinesLayer = L.geoJson(alMamunLines, {
 });
 
 var alMamunLayer = L.geoJson(alMamun, {
+  onEachFeature: onEachFeature,
+  pointToLayer: function(feature, latlng) {
+      return L.shapeMarker (
+          latlng,
+          {
+              radius: feature.properties.radius,
+              color: "#fff",
+              shape: "square",
+              weight: 1,
+              opacity: 1,
+              fillColor: feature.properties.color,
+              fillOpacity: 0.5
+          }
+      )
+  }
+});
+
+var samarraLinesLayer = L.geoJson(samarraLines, {
+  style: function (feature) {
+		return {
+			weight: feature.properties.radius,
+			color: "black",
+			opacity: 0.5,
+		};
+	}
+});
+
+var samarraLayer = L.geoJson(samarra, {
   onEachFeature: onEachFeature,
   pointToLayer: function(feature, latlng) {
       return L.shapeMarker (
@@ -403,7 +569,7 @@ var umayyadMetropolitanBishopricsLayer = L.geoJson(umayyadMetropolitanBishoprics
   }
 });
 
-// Mints
+// Precious metal mints
 
 var mintStyle = {
 	radius: 8,
@@ -442,32 +608,80 @@ var alMutadidMintsLayer = L.geoJson(alMutadidMints, {
   }
 });
 
+// Copper mints
+
+var copperMintStyle = {
+	radius: 5,
+	fillColor: "#000000",
+	color: "#000",
+	weight: 4,
+	opacity: 0,
+	fillOpacity: 1,
+}
+
+var umayyadCopperMintsLayer = L.geoJson(umayyadCopperMints, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.circleMarker (latlng, copperMintStyle)
+  }
+});
+
+var mansurHarunCopperMintsLayer = L.geoJson(mansurHarunCopperMints, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.circleMarker (latlng, copperMintStyle)
+  }
+});
+
+var alMamunCopperMintsLayer = L.geoJson(alMamunCopperMints, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.circleMarker (latlng, copperMintStyle)
+  }
+});
+
+var samarraCopperMintsLayer = L.geoJson(samarraCopperMints, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.circleMarker (latlng, copperMintStyle)
+  }
+});
+
+var alMutadidCopperMintsLayer = L.geoJson(alMutadidCopperMints, {
+	onEachFeature: onEachFeature,
+	pointToLayer: function(feature, latlng) {
+      return L.circleMarker (latlng, copperMintStyle)
+  }
+});
+
+// Routes
+
+var cornuRoutesLayer = L.geoJson(cornuRoutes, {
+	style: function (feature) {
+		return {
+			weight: 2,
+			color: "black",
+			opacity: 0.5,
+		};
+	}
+});
+
 /* Timeline slider */
 
 L.control.timelineSlider({
-                timelineItems: ["<b>Umayyad Apex <br> (ca. 100/720)</b>", "<b>Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)</b>", "<b>al-Ma'mun to al-Mu'tasim <br> (ca. 198-227/813-842)</b>", "<b>al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)</b>"],
+                timelineItems: ["<b>Umayyad Apex <br> (ca. 100/720)</b>", "<b>Mansur-Harun al-Rashid <br> (ca. 136-193/754-809)</b>", "<b>al-Ma'mun to al-Mu'tasim <br> (ca. 198-221/813-836)</b>", "<b>Samarra period <br> (ca. 221-279/836-892)</b>", "<b>al-Mu'tadid to al-Muqtadir <br> (ca. 279-320/892-932)</b>"],
                 backgroundColor: "#000",
                 backgroundOpacity: 0,
-                labelWidth: "250px",
+                labelWidth: "195px",
                 labelFontSize: "16px",
                 inactiveColor: "#555",
                 activeColor: "#581845",
                 thumbHeight: "6px",
-                changeMap: function({label, value, map}) { changeMap(label); }
+                changeMap: function({label, value, map}) { removeAllOverlays(label); removeAllControls(); changeMap(label); }
               })
             .addTo(map);
 
 	// layer Control
-
-	var cornuRoutesLayer = L.geoJson(cornuRoutes, {
-	  style: function (feature) {
-			return {
-				weight: 2,
-				color: "black",
-				opacity: 0.5,
-			};
-		}
-	});
 
 	var options = {
 		collapsed:false,
@@ -480,7 +694,7 @@ L.control.timelineSlider({
 				label: 'Connections',
 				children: [
 					{ label: " Routes", layer: cornuRoutesLayer },
-					{ label: " Power Lines", layer: umayyadLinesLayer }
+					{ label: " Devolvement of power", layer: umayyadLinesLayer }
 				]
 			},
 			{
@@ -489,7 +703,8 @@ L.control.timelineSlider({
 					{ label: ' Harbours', layer: umayyadHarboursLayer },
 					{ label: ' Bishoprics', layer: umayyadBishopricsLayer},
 					{ label: ' Metropolitan Bishoprics', layer: umayyadMetropolitanBishopricsLayer },
-					{ label: ' Mints', layer: umayyadMintsLayer }
+					{ label: ' Precious metal mints', layer: umayyadMintsLayer },
+					{ label: ' Copper mints', layer: umayyadCopperMintsLayer },
 				]
 			}
 		]};
@@ -503,7 +718,7 @@ L.control.timelineSlider({
 				label: 'Connections',
 				children: [
 					{ label: " Routes", layer: cornuRoutesLayer },
-					{ label: " Power Lines", layer: mansurHarunLinesLayer }
+					{ label: " Devolvement of power", layer: mansurHarunLinesLayer }
 				]
 			},
 			{
@@ -512,7 +727,8 @@ L.control.timelineSlider({
 					{ label: ' Harbours', layer: umayyadHarboursLayer },
 					{ label: ' Bishoprics', layer: mansurHarunBishopricsLayer},
 					{ label: ' Metropolitan Bishoprics', layer: umayyadMetropolitanBishopricsLayer },
-					{ label: ' Mints', layer: mansurHarunMintsLayer }
+					{ label: ' Precious metal mints', layer: mansurHarunMintsLayer },
+					{ label: ' Copper mints', layer: mansurHarunCopperMintsLayer }
 				]
 			}
 		]};
@@ -526,7 +742,7 @@ L.control.timelineSlider({
 				label: 'Connections',
 				children: [
 					{ label: " Routes", layer: cornuRoutesLayer },
-					{ label: " Power Lines", layer: alMamunLinesLayer }
+					{ label: " Devolvement of power", layer: alMamunLinesLayer }
 				]
 			},
 			{
@@ -535,12 +751,37 @@ L.control.timelineSlider({
 					{ label: ' Harbours', layer: alMamunHarboursLayer },
 					{ label: ' Bishoprics', layer: alMamunBishopricsLayer},
 					{ label: ' Metropolitan Bishoprics', layer: umayyadMetropolitanBishopricsLayer },
-					{ label: ' Mints', layer: alMamunMintsLayer }
+					{ label: ' Precious metal mints', layer: alMamunMintsLayer },
+					{ label: ' Copper mints', layer: alMamunCopperMintsLayer }
 				]
 			}
 		]};
 
 	var alMamunLinesControl = L.control.layers.tree(null, alMamunOverlayMaps, options);
+
+	var samarraOverlayMaps = {
+		label: 'Legend',
+		children: [
+			{
+				label: 'Connections',
+				children: [
+					{ label: " Routes", layer: cornuRoutesLayer },
+					{ label: " Devolvement of power", layer: samarraLinesLayer }
+				]
+			},
+			{
+				label: 'Sites',
+				children: [
+					{ label: ' Harbours', layer: alMamunHarboursLayer },
+					{ label: ' Bishoprics', layer: alMamunBishopricsLayer},
+					{ label: ' Metropolitan Bishoprics', layer: umayyadMetropolitanBishopricsLayer },
+					{ label: ' Precious metal mints', layer: alMamunMintsLayer },
+					{ label: ' Copper mints', layer: samarraCopperMintsLayer }
+				]
+			}
+		]};
+
+	var samarraLinesControl = L.control.layers.tree(null, samarraOverlayMaps, options);
 
 	var alMutadidOverlayMaps = {
 		label: 'Legend',
@@ -549,7 +790,7 @@ L.control.timelineSlider({
 				label: 'Connections',
 				children: [
 					{ label: " Routes", layer: cornuRoutesLayer },
-					{ label: " Power Lines", layer: alMutadidLinesLayer }
+					{ label: " Devolvement of power", layer: alMutadidLinesLayer }
 				]
 			},
 			{
@@ -558,7 +799,8 @@ L.control.timelineSlider({
 					{ label: ' Harbours', layer: alMutadidHarboursLayer },
 					{ label: ' Bishoprics', layer: alMutadidBishopricsLayer},
 					{ label: ' Metropolitan Bishoprics', layer: umayyadMetropolitanBishopricsLayer },
-					{ label: ' Mints', layer: alMutadidMintsLayer }
+					{ label: ' Precious metal mints', layer: alMutadidMintsLayer },
+					{ label: ' Copper mints', layer: alMutadidCopperMintsLayer }
 				]
 			}
 		]};
@@ -566,18 +808,15 @@ L.control.timelineSlider({
 	var alMutadidLinesControl = L.control.layers.tree(null, alMutadidOverlayMaps, options);
 
 	map.on("overlayadd", function (event) {
-		var allOverlaysWithoutLines = [umayyadApexLayer, umayyadHarboursLayer, umayyadBishopricsLayer, umayyadMetropolitanBishopricsLayer, umayyadMintsLayer, mansurHarunLayer, mansurHarunBishopricsLayer, mansurHarunMintsLayer, alMamunLayer, alMamunHarboursLayer, alMamunBishopricsLayer, alMamunMintsLayer, alMutadidLayer, alMutadidHarboursLayer, alMutadidBishopricsLayer, alMutadidMintsLayer];
+		var allOverlaysWithoutLines = [umayyadApexLayer, mansurHarunLayer, umayyadHarboursLayer, umayyadBishopricsLayer, umayyadMetropolitanBishopricsLayer, umayyadMintsLayer, umayyadCopperMintsLayer, mansurHarunBishopricsLayer, mansurHarunMintsLayer, mansurHarunCopperMintsLayer, alMamunLayer, samarraLayer, alMamunHarboursLayer, alMamunBishopricsLayer, alMamunMintsLayer, alMamunCopperMintsLayer, alMutadidLayer, alMutadidHarboursLayer, alMutadidBishopricsLayer, alMutadidMintsLayer, alMutadidCopperMintsLayer, samarraCopperMintsLayer];
 		for (var i = 0; i < allOverlaysWithoutLines.length; i++) {
 			allOverlaysWithoutLines[i].bringToFront();
 		};
 	});
 
+	map.addLayer(backgroundSitesLayer);
 	map.addLayer(umayyadLinesLayer);
 	map.addLayer(umayyadApexLayer);
-	map.addLayer(umayyadHarboursLayer);
-	map.addLayer(umayyadBishopricsLayer);
-	map.addLayer(umayyadMetropolitanBishopricsLayer);
-	map.addLayer(umayyadMintsLayer);
 	map.addControl(umayyadLinesControl);
 
 // Menu
@@ -596,7 +835,7 @@ closeMenuDivs();
 /* Open Mental Maps div */
 function openMMDiv() {
 document.getElementsByClassName("admin-maps-menu")[0].style.width = "0vw";
-document.getElementsByClassName("mental-maps-menu")[0].style.width = "150px";
+document.getElementsByClassName("mental-maps-menu")[0].style.width = "auto";
 }
 
 function closeMMDiv() {
@@ -606,7 +845,7 @@ document.getElementsByClassName("mental-maps-menu")[0].style.width = "0vw";
 /* Open Admin Maps div */
 function openAMDiv() {
 document.getElementsByClassName("mental-maps-menu")[0].style.width = "0vw";
-document.getElementsByClassName("admin-maps-menu")[0].style.width = "150px";
+document.getElementsByClassName("admin-maps-menu")[0].style.width = "auto";
 }
 
 function closeAMDiv() {
