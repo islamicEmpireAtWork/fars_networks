@@ -334,32 +334,36 @@ textarea {
 /* Media Queries */
 
 @media screen and (max-width: 1200px) {
- #title {
-   font-size: 45pt;
- }
- #aboutPane {
-   font-size: 12pt;
-   padding-right: 50px;
- }
- .closebtn {
-   left: 0;
- }
- .aboutclosebtn {
-   left: -5%;
- }
- .overlay-content {
-   text-align: left;
- }
- .overlay a {
-   font-size: 20pt;
-   padding-bottom: 0px;
- }
- .mental-maps-menu {
-  margin-top: 170px;
+  #title {
+    font-size: 45pt;
   }
- .admin-maps-menu {
-   margin-top: 160px;
- }
+  #aboutPane {
+    font-size: 12pt;
+    padding-right: 50px;
+  }
+  .closebtn {
+    left: 0;
+  }
+  .aboutclosebtn {
+    left: -5%;
+  }
+  .overlay-content {
+    text-align: left;
+  }
+  .overlay a {
+    font-size: 20pt;
+    padding-bottom: 0px;
+  }
+  .submenu-content a {
+    font-size: 20pt;
+    padding-bottom: 0px;
+  }
+  .mental-maps-menu {
+    top: 36vh;
+  }
+  .admin-maps-menu {
+    top: 44vh;
+  }
  .legend {
    font-size: 12pt;
  }

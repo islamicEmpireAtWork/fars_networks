@@ -222,9 +222,6 @@ function onEachFeature(feature, layer) {
 		layer.on('mouseover', function(event) {
 			layer.openPopup();
 		});
-		layer.on('mouseout', function(event) {
-			layer.closePopup();
-		});
     setIconSize();
 };
 
@@ -688,7 +685,7 @@ L.control.timelineSlider({
 	}
 
 	var umayyadOverlayMaps = {
-		label: 'Legend',
+		label: 'Layer Control',
 		children: [
 			{
 				label: 'Connections',
@@ -701,8 +698,8 @@ L.control.timelineSlider({
 				label: 'Sites',
 				children: [
 					{ label: ' Harbours', layer: umayyadHarboursLayer },
-					{ label: ' Bishoprics', layer: umayyadBishopricsLayer},
-					{ label: ' Metropolitan Bishoprics', layer: umayyadMetropolitanBishopricsLayer },
+					{ label: ' Eastern Syrian Diocese', layer: umayyadBishopricsLayer},
+					{ label: ' Eastern Syrian Metropolitan Diocese', layer: umayyadMetropolitanBishopricsLayer },
 					{ label: ' Precious metal mints', layer: umayyadMintsLayer },
 					{ label: ' Copper mints', layer: umayyadCopperMintsLayer },
 				]
@@ -712,7 +709,7 @@ L.control.timelineSlider({
 	var umayyadLinesControl = L.control.layers.tree(null, umayyadOverlayMaps, options);
 
 	var mansurHarunOverlayMaps = {
-		label: 'Legend',
+		label: 'Layer Control',
 		children: [
 			{
 				label: 'Connections',
@@ -725,8 +722,8 @@ L.control.timelineSlider({
 				label: 'Sites',
 				children: [
 					{ label: ' Harbours', layer: umayyadHarboursLayer },
-					{ label: ' Bishoprics', layer: mansurHarunBishopricsLayer},
-					{ label: ' Metropolitan Bishoprics', layer: umayyadMetropolitanBishopricsLayer },
+					{ label: ' Eastern Syrian Diocese', layer: mansurHarunBishopricsLayer},
+					{ label: ' Eastern Syrian Metropolitan Diocese', layer: umayyadMetropolitanBishopricsLayer },
 					{ label: ' Precious metal mints', layer: mansurHarunMintsLayer },
 					{ label: ' Copper mints', layer: mansurHarunCopperMintsLayer }
 				]
@@ -736,7 +733,7 @@ L.control.timelineSlider({
 	var mansurHarunLinesControl = L.control.layers.tree(null, mansurHarunOverlayMaps, options);
 
 	var alMamunOverlayMaps = {
-		label: 'Legend',
+		label: 'Layer Control',
 		children: [
 			{
 				label: 'Connections',
@@ -749,8 +746,8 @@ L.control.timelineSlider({
 				label: 'Sites',
 				children: [
 					{ label: ' Harbours', layer: alMamunHarboursLayer },
-					{ label: ' Bishoprics', layer: alMamunBishopricsLayer},
-					{ label: ' Metropolitan Bishoprics', layer: umayyadMetropolitanBishopricsLayer },
+					{ label: ' Eastern Syrian Diocese', layer: alMamunBishopricsLayer},
+					{ label: ' Eastern Syrian Metropolitan Diocese', layer: umayyadMetropolitanBishopricsLayer },
 					{ label: ' Precious metal mints', layer: alMamunMintsLayer },
 					{ label: ' Copper mints', layer: alMamunCopperMintsLayer }
 				]
@@ -760,7 +757,7 @@ L.control.timelineSlider({
 	var alMamunLinesControl = L.control.layers.tree(null, alMamunOverlayMaps, options);
 
 	var samarraOverlayMaps = {
-		label: 'Legend',
+		label: 'Layer Control',
 		children: [
 			{
 				label: 'Connections',
@@ -773,8 +770,8 @@ L.control.timelineSlider({
 				label: 'Sites',
 				children: [
 					{ label: ' Harbours', layer: alMamunHarboursLayer },
-					{ label: ' Bishoprics', layer: alMamunBishopricsLayer},
-					{ label: ' Metropolitan Bishoprics', layer: umayyadMetropolitanBishopricsLayer },
+					{ label: ' Eastern Syrian Diocese', layer: alMamunBishopricsLayer},
+					{ label: ' Eastern Syrian Metropolitan Diocese', layer: umayyadMetropolitanBishopricsLayer },
 					{ label: ' Precious metal mints', layer: alMamunMintsLayer },
 					{ label: ' Copper mints', layer: samarraCopperMintsLayer }
 				]
@@ -784,7 +781,7 @@ L.control.timelineSlider({
 	var samarraLinesControl = L.control.layers.tree(null, samarraOverlayMaps, options);
 
 	var alMutadidOverlayMaps = {
-		label: 'Legend',
+		label: 'Layer Control',
 		children: [
 			{
 				label: 'Connections',
@@ -797,8 +794,8 @@ L.control.timelineSlider({
 				label: 'Sites',
 				children: [
 					{ label: ' Harbours', layer: alMutadidHarboursLayer },
-					{ label: ' Bishoprics', layer: alMutadidBishopricsLayer},
-					{ label: ' Metropolitan Bishoprics', layer: umayyadMetropolitanBishopricsLayer },
+					{ label: ' Eastern Syrian Diocese', layer: alMutadidBishopricsLayer},
+					{ label: ' Eastern Syrian Metropolitan Diocese', layer: umayyadMetropolitanBishopricsLayer },
 					{ label: ' Precious metal mints', layer: alMutadidMintsLayer },
 					{ label: ' Copper mints', layer: alMutadidCopperMintsLayer }
 				]
